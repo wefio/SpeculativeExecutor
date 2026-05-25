@@ -1,0 +1,23 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Experiment outputs
+experiments/*.json
+
+# External datasets
+temp_gorilla/
+
+# IDE
+.idea/
+.vscode/
