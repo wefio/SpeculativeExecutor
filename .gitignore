@@ -12,9 +12,6 @@ wheels/
 # Virtual environments
 .venv
 
-# Experiment outputs
-experiments/*.json
-
 # External datasets
 temp_gorilla/
 

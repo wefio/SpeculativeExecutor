@@ -1,0 +1,7294 @@
+{
+  "category": "irrelevance",
+  "samples": 240,
+  "concurrency": 10,
+  "completed": 240,
+  "failed": 0,
+  "results": [
+    {
+      "id": "irrelevance_0",
+      "status": "ok",
+      "main_latency": 3.421,
+      "main_tokens": {
+        "prompt": 340,
+        "completion": 214,
+        "total": 554
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.833,
+      "prefix_tokens": {
+        "prompt": 98,
+        "completion": 2,
+        "total": 100
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_1",
+      "status": "ok",
+      "main_latency": 5.794,
+      "main_tokens": {
+        "prompt": 356,
+        "completion": 566,
+        "total": 922
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.949,
+      "prefix_tokens": {
+        "prompt": 100,
+        "completion": 27,
+        "total": 127
+      },
+      "spec_calls": [
+        {
+          "name": "quadratic_formula",
+          "arguments": {
+            "a": 1,
+            "b": 2,
+            "c": 3
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_2",
+      "status": "ok",
+      "main_latency": 4.331,
+      "main_tokens": {
+        "prompt": 377,
+        "completion": 508,
+        "total": 885
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.06,
+      "prefix_tokens": {
+        "prompt": 101,
+        "completion": 2,
+        "total": 103
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_3",
+      "status": "ok",
+      "main_latency": 2.23,
+      "main_tokens": {
+        "prompt": 391,
+        "completion": 143,
+        "total": 534
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.972,
+      "prefix_tokens": {
+        "prompt": 104,
+        "completion": 2,
+        "total": 106
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_4",
+      "status": "ok",
+      "main_latency": 5.274,
+      "main_tokens": {
+        "prompt": 358,
+        "completion": 470,
+        "total": 828
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.959,
+      "prefix_tokens": {
+        "prompt": 101,
+        "completion": 26,
+        "total": 127
+      },
+      "spec_calls": [
+        {
+          "name": "find_roots",
+          "arguments": {
+            "a": 0,
+            "b": 1,
+            "c": 0
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_5",
+      "status": "ok",
+      "main_latency": 2.148,
+      "main_tokens": {
+        "prompt": 373,
+        "completion": 150,
+        "total": 523
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.095,
+      "prefix_tokens": {
+        "prompt": 101,
+        "completion": 2,
+        "total": 103
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_6",
+      "status": "ok",
+      "main_latency": 2.19,
+      "main_tokens": {
+        "prompt": 353,
+        "completion": 134,
+        "total": 487
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.029,
+      "prefix_tokens": {
+        "prompt": 96,
+        "completion": 2,
+        "total": 98
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_7",
+      "status": "ok",
+      "main_latency": 2.406,
+      "main_tokens": {
+        "prompt": 362,
+        "completion": 223,
+        "total": 585
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.902,
+      "prefix_tokens": {
+        "prompt": 105,
+        "completion": 2,
+        "total": 107
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_8",
+      "status": "ok",
+      "main_latency": 2.878,
+      "main_tokens": {
+        "prompt": 305,
+        "completion": 262,
+        "total": 567
+      },
+      "main_calls": [
+        {
+          "name": "str_to_int",
+          "arguments": {
+            "value": "5^4"
+          }
+        },
+        {
+          "name": "str_to_int",
+          "arguments": {
+            "value": "1^4"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.965,
+      "prefix_tokens": {
+        "prompt": 81,
+        "completion": 15,
+        "total": 96
+      },
+      "spec_calls": [
+        {
+          "name": "str_to_int",
+          "arguments": {
+            "value": "5"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_9",
+      "status": "ok",
+      "main_latency": 3.74,
+      "main_tokens": {
+        "prompt": 374,
+        "completion": 384,
+        "total": 758
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.879,
+      "prefix_tokens": {
+        "prompt": 112,
+        "completion": 2,
+        "total": 114
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_10",
+      "status": "ok",
+      "main_latency": 2.58,
+      "main_tokens": {
+        "prompt": 385,
+        "completion": 180,
+        "total": 565
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.885,
+      "prefix_tokens": {
+        "prompt": 108,
+        "completion": 30,
+        "total": 138
+      },
+      "spec_calls": [
+        {
+          "name": "calculus.compute_definite_integral",
+          "arguments": {
+            "function": "2x",
+            "interval": "[1,1]"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_11",
+      "status": "ok",
+      "main_latency": 1.982,
+      "main_tokens": {
+        "prompt": 345,
+        "completion": 166,
+        "total": 511
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.848,
+      "prefix_tokens": {
+        "prompt": 88,
+        "completion": 2,
+        "total": 90
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_12",
+      "status": "ok",
+      "main_latency": 6.998,
+      "main_tokens": {
+        "prompt": 371,
+        "completion": 489,
+        "total": 860
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.671,
+      "prefix_tokens": {
+        "prompt": 93,
+        "completion": 2,
+        "total": 95
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_13",
+      "status": "ok",
+      "main_latency": 1.7,
+      "main_tokens": {
+        "prompt": 436,
+        "completion": 130,
+        "total": 566
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.664,
+      "prefix_tokens": {
+        "prompt": 110,
+        "completion": 2,
+        "total": 112
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_14",
+      "status": "ok",
+      "main_latency": 4.615,
+      "main_tokens": {
+        "prompt": 369,
+        "completion": 370,
+        "total": 739
+      },
+      "main_calls": [
+        {
+          "name": "calculate_maximum_height",
+          "arguments": {
+            "initial_velocity": 5
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.656,
+      "prefix_tokens": {
+        "prompt": 117,
+        "completion": 2,
+        "total": 119
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_15",
+      "status": "ok",
+      "main_latency": 2.348,
+      "main_tokens": {
+        "prompt": 375,
+        "completion": 149,
+        "total": 524
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.42,
+      "prefix_tokens": {
+        "prompt": 97,
+        "completion": 2,
+        "total": 99
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_16",
+      "status": "ok",
+      "main_latency": 3.051,
+      "main_tokens": {
+        "prompt": 400,
+        "completion": 235,
+        "total": 635
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.836,
+      "prefix_tokens": {
+        "prompt": 119,
+        "completion": 30,
+        "total": 149
+      },
+      "spec_calls": [
+        {
+          "name": "calculate_projectile_range",
+          "arguments": {
+            "initial_velocity": "v",
+            "angle": "theta",
+            "time": "t"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_17",
+      "status": "ok",
+      "main_latency": 2.069,
+      "main_tokens": {
+        "prompt": 368,
+        "completion": 152,
+        "total": 520
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.625,
+      "prefix_tokens": {
+        "prompt": 97,
+        "completion": 2,
+        "total": 99
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_18",
+      "status": "ok",
+      "main_latency": 5.228,
+      "main_tokens": {
+        "prompt": 385,
+        "completion": 392,
+        "total": 777
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 3.068,
+      "prefix_tokens": {
+        "prompt": 106,
+        "completion": 192,
+        "total": 298
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_19",
+      "status": "ok",
+      "main_latency": 3.136,
+      "main_tokens": {
+        "prompt": 371,
+        "completion": 342,
+        "total": 713
+      },
+      "main_calls": [
+        {
+          "name": "investment_calculator.calculate_return",
+          "arguments": {
+            "initial_investment": 1,
+            "annual_rate": 1,
+            "years": 1
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.685,
+      "prefix_tokens": {
+        "prompt": 107,
+        "completion": 2,
+        "total": 109
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_20",
+      "status": "ok",
+      "main_latency": 3.721,
+      "main_tokens": {
+        "prompt": 367,
+        "completion": 272,
+        "total": 639
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.823,
+      "prefix_tokens": {
+        "prompt": 94,
+        "completion": 2,
+        "total": 96
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_21",
+      "status": "ok",
+      "main_latency": 6.115,
+      "main_tokens": {
+        "prompt": 407,
+        "completion": 627,
+        "total": 1034
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.924,
+      "prefix_tokens": {
+        "prompt": 122,
+        "completion": 23,
+        "total": 145
+      },
+      "spec_calls": [
+        {
+          "name": "calculate_wave_amplitude",
+          "arguments": {
+            "max_electric_field_strength": 0
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_22",
+      "status": "ok",
+      "main_latency": 3.539,
+      "main_tokens": {
+        "prompt": 402,
+        "completion": 347,
+        "total": 749
+      },
+      "main_calls": [
+        {
+          "name": "magnetic_field_intensity",
+          "arguments": {
+            "current": 5,
+            "distance": 0.1
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.93,
+      "prefix_tokens": {
+        "prompt": 115,
+        "completion": 23,
+        "total": 138
+      },
+      "spec_calls": [
+        {
+          "name": "magnetic_field_intensity",
+          "arguments": {
+            "current": "I",
+            "distance": "r"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_23",
+      "status": "ok",
+      "main_latency": 2.484,
+      "main_tokens": {
+        "prompt": 390,
+        "completion": 174,
+        "total": 564
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.432,
+      "prefix_tokens": {
+        "prompt": 101,
+        "completion": 2,
+        "total": 103
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_24",
+      "status": "ok",
+      "main_latency": 2.634,
+      "main_tokens": {
+        "prompt": 355,
+        "completion": 161,
+        "total": 516
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.043,
+      "prefix_tokens": {
+        "prompt": 91,
+        "completion": 29,
+        "total": 120
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_25",
+      "status": "ok",
+      "main_latency": 4.098,
+      "main_tokens": {
+        "prompt": 377,
+        "completion": 331,
+        "total": 708
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.945,
+      "prefix_tokens": {
+        "prompt": 106,
+        "completion": 2,
+        "total": 108
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_26",
+      "status": "ok",
+      "main_latency": 3.667,
+      "main_tokens": {
+        "prompt": 426,
+        "completion": 318,
+        "total": 744
+      },
+      "main_calls": [
+        {
+          "name": "thermodynamics.calc_gas_pressure",
+          "arguments": {
+            "volume": 2,
+            "initial_temperature": 25,
+            "final_temperature": 100
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 3.594,
+      "prefix_tokens": {
+        "prompt": 128,
+        "completion": 243,
+        "total": 371
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_27",
+      "status": "ok",
+      "main_latency": 2.247,
+      "main_tokens": {
+        "prompt": 400,
+        "completion": 226,
+        "total": 626
+      },
+      "main_calls": [
+        {
+          "name": "calculate_heat",
+          "arguments": {
+            "mass": 3,
+            "specific_heat": 4.184,
+            "change_in_temp": 4
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.226,
+      "prefix_tokens": {
+        "prompt": 112,
+        "completion": 37,
+        "total": 149
+      },
+      "spec_calls": [
+        {
+          "name": "calculate_heat",
+          "arguments": {
+            "mass": 3.0,
+            "specific_heat": 4184.0,
+            "change_in_temp": 4.0
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_28",
+      "status": "ok",
+      "main_latency": 1.481,
+      "main_tokens": {
+        "prompt": 342,
+        "completion": 58,
+        "total": 400
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.813,
+      "prefix_tokens": {
+        "prompt": 90,
+        "completion": 2,
+        "total": 92
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_29",
+      "status": "ok",
+      "main_latency": 1.317,
+      "main_tokens": {
+        "prompt": 349,
+        "completion": 91,
+        "total": 440
+      },
+      "main_calls": [
+        {
+          "name": "get_cell_function",
+          "arguments": {
+            "cell_part": "mitochondria",
+            "detail_level": "basic"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.189,
+      "prefix_tokens": {
+        "prompt": 90,
+        "completion": 26,
+        "total": 116
+      },
+      "spec_calls": [
+        {
+          "name": "get_cell_function",
+          "arguments": {
+            "cell_part": "mitochondria",
+            "detail_level": "basic"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_30",
+      "status": "ok",
+      "main_latency": 7.186,
+      "main_tokens": {
+        "prompt": 396,
+        "completion": 592,
+        "total": 988
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.894,
+      "prefix_tokens": {
+        "prompt": 102,
+        "completion": 32,
+        "total": 134
+      },
+      "spec_calls": [
+        {
+          "name": "bloodcell_classification",
+          "arguments": {
+            "cell_shape": "any",
+            "cell_size": "any",
+            "cell_function": "multiple nuclei"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_31",
+      "status": "ok",
+      "main_latency": 3.846,
+      "main_tokens": {
+        "prompt": 374,
+        "completion": 256,
+        "total": 630
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.754,
+      "prefix_tokens": {
+        "prompt": 92,
+        "completion": 17,
+        "total": 109
+      },
+      "spec_calls": [
+        {
+          "name": "favorite_restaurant",
+          "arguments": {
+            "city": "London"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_32",
+      "status": "ok",
+      "main_latency": 2.725,
+      "main_tokens": {
+        "prompt": 392,
+        "completion": 237,
+        "total": 629
+      },
+      "main_calls": [
+        {
+          "name": "cellBiology.getCellType",
+          "arguments": {
+            "nucleus_count": 0,
+            "organism_type": "Animal",
+            "membrane_type": "Phospholipid bi-layer"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.944,
+      "prefix_tokens": {
+        "prompt": 102,
+        "completion": 36,
+        "total": 138
+      },
+      "spec_calls": [
+        {
+          "name": "cellBiology.getCellType",
+          "arguments": {
+            "nucleus_count": 0,
+            "organism_type": "human",
+            "membrane_type": "cell membrane"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_33",
+      "status": "ok",
+      "main_latency": 1.427,
+      "main_tokens": {
+        "prompt": 337,
+        "completion": 92,
+        "total": 429
+      },
+      "main_calls": [
+        {
+          "name": "identify_species",
+          "arguments": {
+            "sequence": "ATCG"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.785,
+      "prefix_tokens": {
+        "prompt": 91,
+        "completion": 17,
+        "total": 108
+      },
+      "spec_calls": [
+        {
+          "name": "identify_species",
+          "arguments": {
+            "sequence": "ATCG"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_34",
+      "status": "ok",
+      "main_latency": 6.925,
+      "main_tokens": {
+        "prompt": 338,
+        "completion": 448,
+        "total": 786
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.998,
+      "prefix_tokens": {
+        "prompt": 93,
+        "completion": 31,
+        "total": 124
+      },
+      "spec_calls": [
+        {
+          "name": "genetics.get_variant_frequency",
+          "arguments": {
+            "variant_id": "LION_DOMINANT",
+            "population": "general"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_35",
+      "status": "ok",
+      "main_latency": 9.931,
+      "main_tokens": {
+        "prompt": 369,
+        "completion": 737,
+        "total": 1106
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.755,
+      "prefix_tokens": {
+        "prompt": 96,
+        "completion": 2,
+        "total": 98
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_36",
+      "status": "ok",
+      "main_latency": 5.221,
+      "main_tokens": {
+        "prompt": 387,
+        "completion": 397,
+        "total": 784
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.081,
+      "prefix_tokens": {
+        "prompt": 106,
+        "completion": 31,
+        "total": 137
+      },
+      "spec_calls": [
+        {
+          "name": "get_dominant_trait",
+          "arguments": {
+            "allele1": "rs7412",
+            "allele2": "rs7412"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_37",
+      "status": "ok",
+      "main_latency": 3.575,
+      "main_tokens": {
+        "prompt": 369,
+        "completion": 275,
+        "total": 644
+      },
+      "main_calls": [
+        {
+          "name": "local_fauna",
+          "arguments": {
+            "location": "Miami",
+            "species_type": "birds"
+          }
+        },
+        {
+          "name": "local_fauna",
+          "arguments": {
+            "location": "Miami",
+            "species_type": "mammals"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.923,
+      "prefix_tokens": {
+        "prompt": 91,
+        "completion": 26,
+        "total": 117
+      },
+      "spec_calls": [
+        {
+          "name": "local_fauna",
+          "arguments": {
+            "location": "Miami",
+            "species_type": "picnic spot"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_38",
+      "status": "ok",
+      "main_latency": 2.496,
+      "main_tokens": {
+        "prompt": 380,
+        "completion": 186,
+        "total": 566
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.89,
+      "prefix_tokens": {
+        "prompt": 96,
+        "completion": 30,
+        "total": 126
+      },
+      "spec_calls": [
+        {
+          "name": "retrieve_scientific_paper",
+          "arguments": {
+            "topic": "global warming",
+            "year": "2023",
+            "author": ""
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_39",
+      "status": "ok",
+      "main_latency": 7.306,
+      "main_tokens": {
+        "prompt": 372,
+        "completion": 461,
+        "total": 833
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 2.792,
+      "prefix_tokens": {
+        "prompt": 105,
+        "completion": 134,
+        "total": 239
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_40",
+      "status": "ok",
+      "main_latency": 3.569,
+      "main_tokens": {
+        "prompt": 368,
+        "completion": 225,
+        "total": 593
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.891,
+      "prefix_tokens": {
+        "prompt": 98,
+        "completion": 16,
+        "total": 114
+      },
+      "spec_calls": [
+        {
+          "name": "air_quality",
+          "arguments": {
+            "city": "Los Angeles"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_41",
+      "status": "ok",
+      "main_latency": 7.324,
+      "main_tokens": {
+        "prompt": 345,
+        "completion": 518,
+        "total": 863
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.602,
+      "prefix_tokens": {
+        "prompt": 94,
+        "completion": 2,
+        "total": 96
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_42",
+      "status": "ok",
+      "main_latency": 10.887,
+      "main_tokens": {
+        "prompt": 410,
+        "completion": 726,
+        "total": 1136
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.646,
+      "prefix_tokens": {
+        "prompt": 105,
+        "completion": 2,
+        "total": 107
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_43",
+      "status": "ok",
+      "main_latency": 6.505,
+      "main_tokens": {
+        "prompt": 409,
+        "completion": 495,
+        "total": 904
+      },
+      "main_calls": [
+        {
+          "name": "evolve_creatures",
+          "arguments": {
+            "population_size": 50,
+            "mutation_rate": 0.1,
+            "generations": 20,
+            "fitness_goal": 100
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.014,
+      "prefix_tokens": {
+        "prompt": 108,
+        "completion": 43,
+        "total": 151
+      },
+      "spec_calls": [
+        {
+          "name": "evolve_creatures",
+          "arguments": {
+            "population_size": 50,
+            "mutation_rate": 0.2,
+            "generations": 10,
+            "fitness_goal": 100
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_44",
+      "status": "ok",
+      "main_latency": 1.645,
+      "main_tokens": {
+        "prompt": 451,
+        "completion": 123,
+        "total": 574
+      },
+      "main_calls": [
+        {
+          "name": "gene_sequencer",
+          "arguments": {
+            "species": "Whale",
+            "mutation_rate": 0.5,
+            "evolution_duration": 50000000
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.292,
+      "prefix_tokens": {
+        "prompt": 100,
+        "completion": 52,
+        "total": 152
+      },
+      "spec_calls": [
+        {
+          "name": "gene_sequencer",
+          "arguments": {
+            "species": "whales",
+            "mutation_rate": 0.001,
+            "evolution_duration": 5000000,
+            "mutation_factors": "natural selection, genetic drift, migration"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_45",
+      "status": "ok",
+      "main_latency": 1.96,
+      "main_tokens": {
+        "prompt": 384,
+        "completion": 127,
+        "total": 511
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.59,
+      "prefix_tokens": {
+        "prompt": 92,
+        "completion": 2,
+        "total": 94
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_46",
+      "status": "ok",
+      "main_latency": 3.841,
+      "main_tokens": {
+        "prompt": 333,
+        "completion": 307,
+        "total": 640
+      },
+      "main_calls": [
+        {
+          "name": "get_exchange_rate",
+          "arguments": {
+            "base_currency": "USD",
+            "target_currency": "INR"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.817,
+      "prefix_tokens": {
+        "prompt": 91,
+        "completion": 27,
+        "total": 118
+      },
+      "spec_calls": [
+        {
+          "name": "get_exchange_rate",
+          "arguments": {
+            "base_currency": "USD",
+            "target_currency": "INR"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_47",
+      "status": "ok",
+      "main_latency": 2.977,
+      "main_tokens": {
+        "prompt": 373,
+        "completion": 181,
+        "total": 554
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.717,
+      "prefix_tokens": {
+        "prompt": 100,
+        "completion": 2,
+        "total": 102
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_48",
+      "status": "ok",
+      "main_latency": 3.061,
+      "main_tokens": {
+        "prompt": 377,
+        "completion": 246,
+        "total": 623
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.83,
+      "prefix_tokens": {
+        "prompt": 94,
+        "completion": 31,
+        "total": 125
+      },
+      "spec_calls": [
+        {
+          "name": "finance.fetchGDP",
+          "arguments": {
+            "country": "USA",
+            "year": 2023,
+            "format": "Gini Coefficient"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_49",
+      "status": "ok",
+      "main_latency": 2.649,
+      "main_tokens": {
+        "prompt": 305,
+        "completion": 231,
+        "total": 536
+      },
+      "main_calls": [
+        {
+          "name": "get_co_ordinate",
+          "arguments": {
+            "location": "Los Angeles"
+          }
+        },
+        {
+          "name": "get_co_ordinate",
+          "arguments": {
+            "location": "Berlin"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.771,
+      "prefix_tokens": {
+        "prompt": 82,
+        "completion": 36,
+        "total": 118
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_50",
+      "status": "ok",
+      "main_latency": 6.442,
+      "main_tokens": {
+        "prompt": 339,
+        "completion": 495,
+        "total": 834
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.815,
+      "prefix_tokens": {
+        "prompt": 93,
+        "completion": 2,
+        "total": 95
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_51",
+      "status": "ok",
+      "main_latency": 4.013,
+      "main_tokens": {
+        "prompt": 362,
+        "completion": 490,
+        "total": 852
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.662,
+      "prefix_tokens": {
+        "prompt": 97,
+        "completion": 2,
+        "total": 99
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_52",
+      "status": "ok",
+      "main_latency": 3.107,
+      "main_tokens": {
+        "prompt": 372,
+        "completion": 243,
+        "total": 615
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.037,
+      "prefix_tokens": {
+        "prompt": 98,
+        "completion": 23,
+        "total": 121
+      },
+      "spec_calls": [
+        {
+          "name": "compress_file",
+          "arguments": {
+            "file_path": "test.txt",
+            "archive_name": "test"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_53",
+      "status": "ok",
+      "main_latency": 1.957,
+      "main_tokens": {
+        "prompt": 404,
+        "completion": 131,
+        "total": 535
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.94,
+      "prefix_tokens": {
+        "prompt": 91,
+        "completion": 35,
+        "total": 126
+      },
+      "spec_calls": [
+        {
+          "name": "database_query.run",
+          "arguments": {
+            "database": "baseball",
+            "query": "SELECT team FROM world_series_winners WHERE year = 2018"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_54",
+      "status": "ok",
+      "main_latency": 1.343,
+      "main_tokens": {
+        "prompt": 353,
+        "completion": 99,
+        "total": 452
+      },
+      "main_calls": [
+        {
+          "name": "movies.search",
+          "arguments": {
+            "title": "highest grossing",
+            "year": 2024
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.996,
+      "prefix_tokens": {
+        "prompt": 90,
+        "completion": 22,
+        "total": 112
+      },
+      "spec_calls": [
+        {
+          "name": "movies.search",
+          "arguments": {
+            "title": "",
+            "year": 0,
+            "genre": ""
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_55",
+      "status": "ok",
+      "main_latency": 3.781,
+      "main_tokens": {
+        "prompt": 376,
+        "completion": 273,
+        "total": 649
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.023,
+      "prefix_tokens": {
+        "prompt": 100,
+        "completion": 2,
+        "total": 102
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_56",
+      "status": "ok",
+      "main_latency": 2.918,
+      "main_tokens": {
+        "prompt": 359,
+        "completion": 209,
+        "total": 568
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.136,
+      "prefix_tokens": {
+        "prompt": 91,
+        "completion": 41,
+        "total": 132
+      },
+      "spec_calls": [
+        {
+          "name": "database_connect.select",
+          "arguments": {
+            "database_name": "crypto_prices",
+            "table_name": "bitcoin",
+            "condition": "ORDER BY timestamp DESC LIMIT 1"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_57",
+      "status": "ok",
+      "main_latency": 6.83,
+      "main_tokens": {
+        "prompt": 416,
+        "completion": 758,
+        "total": 1174
+      },
+      "main_calls": [
+        {
+          "name": "genetic_algorithm.optimize",
+          "arguments": {
+            "function": "2*x^2 + 3*x + 4",
+            "constraints": [
+              "x >= -10",
+              "x <= 10"
+            ],
+            "population_size": 100,
+            "mutation_rate": 0.05
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.781,
+      "prefix_tokens": {
+        "prompt": 110,
+        "completion": 2,
+        "total": 112
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_58",
+      "status": "ok",
+      "main_latency": 3.723,
+      "main_tokens": {
+        "prompt": 404,
+        "completion": 273,
+        "total": 677
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.132,
+      "prefix_tokens": {
+        "prompt": 122,
+        "completion": 44,
+        "total": 166
+      },
+      "spec_calls": [
+        {
+          "name": "solar_panel.calculate_need",
+          "arguments": {
+            "square_footage": 2000,
+            "average_sunlight_hours": 5,
+            "usage_efficiency": 0.75
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_59",
+      "status": "ok",
+      "main_latency": 1.667,
+      "main_tokens": {
+        "prompt": 324,
+        "completion": 129,
+        "total": 453
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.605,
+      "prefix_tokens": {
+        "prompt": 84,
+        "completion": 2,
+        "total": 86
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_60",
+      "status": "ok",
+      "main_latency": 1.948,
+      "main_tokens": {
+        "prompt": 414,
+        "completion": 133,
+        "total": 547
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.039,
+      "prefix_tokens": {
+        "prompt": 131,
+        "completion": 34,
+        "total": 165
+      },
+      "spec_calls": [
+        {
+          "name": "calculateFinalPrice",
+          "arguments": {
+            "price": 100,
+            "discount_rate": 0.25,
+            "sales_tax": 0.1
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_61",
+      "status": "ok",
+      "main_latency": 2.845,
+      "main_tokens": {
+        "prompt": 393,
+        "completion": 209,
+        "total": 602
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.841,
+      "prefix_tokens": {
+        "prompt": 93,
+        "completion": 2,
+        "total": 95
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_62",
+      "status": "ok",
+      "main_latency": 11.526,
+      "main_tokens": {
+        "prompt": 421,
+        "completion": 978,
+        "total": 1399
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.65,
+      "prefix_tokens": {
+        "prompt": 108,
+        "completion": 2,
+        "total": 110
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_63",
+      "status": "ok",
+      "main_latency": 5.712,
+      "main_tokens": {
+        "prompt": 376,
+        "completion": 635,
+        "total": 1011
+      },
+      "main_calls": [
+        {
+          "name": "probability_calculator",
+          "arguments": {
+            "total_outcomes": 8,
+            "event_outcomes": 1,
+            "return_decimal": false
+          }
+        },
+        {
+          "name": "probability_calculator",
+          "arguments": {
+            "total_outcomes": 8,
+            "event_outcomes": 3,
+            "return_decimal": false
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.99,
+      "prefix_tokens": {
+        "prompt": 96,
+        "completion": 2,
+        "total": 98
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_64",
+      "status": "ok",
+      "main_latency": 3.328,
+      "main_tokens": {
+        "prompt": 427,
+        "completion": 257,
+        "total": 684
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.972,
+      "prefix_tokens": {
+        "prompt": 112,
+        "completion": 37,
+        "total": 149
+      },
+      "spec_calls": [
+        {
+          "name": "probability.coin_toss_heads",
+          "arguments": {
+            "coin_tosses": 0,
+            "heads_needed": 0,
+            "coin_type": "none"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_65",
+      "status": "ok",
+      "main_latency": 2.411,
+      "main_tokens": {
+        "prompt": 378,
+        "completion": 224,
+        "total": 602
+      },
+      "main_calls": [
+        {
+          "name": "probability.determine_population",
+          "arguments": {
+            "probability": 0.3,
+            "sample_size": 20,
+            "round": true
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.979,
+      "prefix_tokens": {
+        "prompt": 113,
+        "completion": 31,
+        "total": 144
+      },
+      "spec_calls": [
+        {
+          "name": "probability.determine_population",
+          "arguments": {
+            "probability": 0.3,
+            "sample_size": 20,
+            "round": true
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_66",
+      "status": "ok",
+      "main_latency": 3.009,
+      "main_tokens": {
+        "prompt": 354,
+        "completion": 190,
+        "total": 544
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.81,
+      "prefix_tokens": {
+        "prompt": 92,
+        "completion": 2,
+        "total": 94
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_67",
+      "status": "ok",
+      "main_latency": 4.27,
+      "main_tokens": {
+        "prompt": 476,
+        "completion": 371,
+        "total": 847
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.759,
+      "prefix_tokens": {
+        "prompt": 128,
+        "completion": 2,
+        "total": 130
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_68",
+      "status": "ok",
+      "main_latency": 5.234,
+      "main_tokens": {
+        "prompt": 462,
+        "completion": 487,
+        "total": 949
+      },
+      "main_calls": [
+        {
+          "name": "statistics.calculate_p_value",
+          "arguments": {
+            "sample_mean": 98.2,
+            "population_mean": 98.6,
+            "sample_std_dev": 1.4,
+            "sample_size": 40,
+            "two_tailed": true
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.087,
+      "prefix_tokens": {
+        "prompt": 150,
+        "completion": 54,
+        "total": 204
+      },
+      "spec_calls": [
+        {
+          "name": "statistics.calculate_p_value",
+          "arguments": {
+            "sample_mean": 98.2,
+            "population_mean": 98.6,
+            "sample_std_dev": 1.4,
+            "sample_size": 40,
+            "two_tailed": true
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_69",
+      "status": "ok",
+      "main_latency": 6.986,
+      "main_tokens": {
+        "prompt": 373,
+        "completion": 564,
+        "total": 937
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.871,
+      "prefix_tokens": {
+        "prompt": 99,
+        "completion": 30,
+        "total": 129
+      },
+      "spec_calls": [
+        {
+          "name": "regression_model.predict",
+          "arguments": {
+            "features": "average",
+            "model": "california_housing",
+            "scaler": null
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_70",
+      "status": "ok",
+      "main_latency": 5.218,
+      "main_tokens": {
+        "prompt": 403,
+        "completion": 518,
+        "total": 921
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.658,
+      "prefix_tokens": {
+        "prompt": 125,
+        "completion": 2,
+        "total": 127
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_71",
+      "status": "ok",
+      "main_latency": 3.314,
+      "main_tokens": {
+        "prompt": 383,
+        "completion": 301,
+        "total": 684
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.122,
+      "prefix_tokens": {
+        "prompt": 118,
+        "completion": 58,
+        "total": 176
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_72",
+      "status": "ok",
+      "main_latency": 3.429,
+      "main_tokens": {
+        "prompt": 381,
+        "completion": 260,
+        "total": 641
+      },
+      "main_calls": [
+        {
+          "name": "calculate_internal_rate_of_return",
+          "arguments": {
+            "cash_flows": [
+              -100,
+              40,
+              60,
+              80,
+              120
+            ]
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.202,
+      "prefix_tokens": {
+        "prompt": 117,
+        "completion": 32,
+        "total": 149
+      },
+      "spec_calls": [
+        {
+          "name": "calculate_internal_rate_of_return",
+          "arguments": {
+            "cash_flows": "-100, 40, 60, 80, 120"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_73",
+      "status": "ok",
+      "main_latency": 3.448,
+      "main_tokens": {
+        "prompt": 380,
+        "completion": 287,
+        "total": 667
+      },
+      "main_calls": [
+        {
+          "name": "finance.predict_revenue",
+          "arguments": {
+            "company_name": "XYZ",
+            "period": "next year"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.723,
+      "prefix_tokens": {
+        "prompt": 108,
+        "completion": 25,
+        "total": 133
+      },
+      "spec_calls": [
+        {
+          "name": "finance.predict_revenue",
+          "arguments": {
+            "company_name": "XYZ",
+            "period": "next year"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_74",
+      "status": "ok",
+      "main_latency": 3.473,
+      "main_tokens": {
+        "prompt": 382,
+        "completion": 258,
+        "total": 640
+      },
+      "main_calls": [
+        {
+          "name": "investment_analysis.calculate_profit",
+          "arguments": {
+            "total_revenue": 15000,
+            "total_cost": 22000
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.201,
+      "prefix_tokens": {
+        "prompt": 113,
+        "completion": 29,
+        "total": 142
+      },
+      "spec_calls": [
+        {
+          "name": "investment_analysis.calculate_profit",
+          "arguments": {
+            "total_revenue": 15000,
+            "total_cost": 22000
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_75",
+      "status": "ok",
+      "main_latency": 2.174,
+      "main_tokens": {
+        "prompt": 375,
+        "completion": 137,
+        "total": 512
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.68,
+      "prefix_tokens": {
+        "prompt": 99,
+        "completion": 7,
+        "total": 106
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_76",
+      "status": "ok",
+      "main_latency": 4.102,
+      "main_tokens": {
+        "prompt": 386,
+        "completion": 296,
+        "total": 682
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.701,
+      "prefix_tokens": {
+        "prompt": 105,
+        "completion": 2,
+        "total": 107
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_77",
+      "status": "ok",
+      "main_latency": 6.889,
+      "main_tokens": {
+        "prompt": 413,
+        "completion": 535,
+        "total": 948
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.704,
+      "prefix_tokens": {
+        "prompt": 105,
+        "completion": 2,
+        "total": 107
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_78",
+      "status": "ok",
+      "main_latency": 3.131,
+      "main_tokens": {
+        "prompt": 409,
+        "completion": 229,
+        "total": 638
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.011,
+      "prefix_tokens": {
+        "prompt": 113,
+        "completion": 2,
+        "total": 115
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_79",
+      "status": "ok",
+      "main_latency": 5.606,
+      "main_tokens": {
+        "prompt": 366,
+        "completion": 397,
+        "total": 763
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.95,
+      "prefix_tokens": {
+        "prompt": 96,
+        "completion": 2,
+        "total": 98
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_80",
+      "status": "ok",
+      "main_latency": 1.767,
+      "main_tokens": {
+        "prompt": 394,
+        "completion": 118,
+        "total": 512
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.903,
+      "prefix_tokens": {
+        "prompt": 98,
+        "completion": 2,
+        "total": 100
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_81",
+      "status": "ok",
+      "main_latency": 2.536,
+      "main_tokens": {
+        "prompt": 384,
+        "completion": 170,
+        "total": 554
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.547,
+      "prefix_tokens": {
+        "prompt": 95,
+        "completion": 2,
+        "total": 97
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_82",
+      "status": "ok",
+      "main_latency": 3.155,
+      "main_tokens": {
+        "prompt": 400,
+        "completion": 260,
+        "total": 660
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.039,
+      "prefix_tokens": {
+        "prompt": 106,
+        "completion": 2,
+        "total": 108
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_83",
+      "status": "ok",
+      "main_latency": 2.813,
+      "main_tokens": {
+        "prompt": 364,
+        "completion": 204,
+        "total": 568
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.813,
+      "prefix_tokens": {
+        "prompt": 100,
+        "completion": 2,
+        "total": 102
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_84",
+      "status": "ok",
+      "main_latency": 6.351,
+      "main_tokens": {
+        "prompt": 339,
+        "completion": 430,
+        "total": 769
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.886,
+      "prefix_tokens": {
+        "prompt": 89,
+        "completion": 25,
+        "total": 114
+      },
+      "spec_calls": [
+        {
+          "name": "get_stock_data",
+          "arguments": {
+            "company_name": "Lakers",
+            "date": "yesterday"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_85",
+      "status": "ok",
+      "main_latency": 2.315,
+      "main_tokens": {
+        "prompt": 374,
+        "completion": 150,
+        "total": 524
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.726,
+      "prefix_tokens": {
+        "prompt": 99,
+        "completion": 2,
+        "total": 101
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_86",
+      "status": "ok",
+      "main_latency": 1.191,
+      "main_tokens": {
+        "prompt": 336,
+        "completion": 89,
+        "total": 425
+      },
+      "main_calls": [
+        {
+          "name": "law_info.get_penalty",
+          "arguments": {
+            "crime": "burglary",
+            "state": "California"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.86,
+      "prefix_tokens": {
+        "prompt": 91,
+        "completion": 26,
+        "total": 117
+      },
+      "spec_calls": [
+        {
+          "name": "law_info.get_penalty",
+          "arguments": {
+            "crime": "burglary",
+            "state": "California"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_87",
+      "status": "ok",
+      "main_latency": 3.067,
+      "main_tokens": {
+        "prompt": 364,
+        "completion": 197,
+        "total": 561
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.697,
+      "prefix_tokens": {
+        "prompt": 88,
+        "completion": 2,
+        "total": 90
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_88",
+      "status": "ok",
+      "main_latency": 14.546,
+      "main_tokens": {
+        "prompt": 393,
+        "completion": 1209,
+        "total": 1602
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.721,
+      "prefix_tokens": {
+        "prompt": 104,
+        "completion": 2,
+        "total": 106
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_89",
+      "status": "ok",
+      "main_latency": 9.27,
+      "main_tokens": {
+        "prompt": 380,
+        "completion": 652,
+        "total": 1032
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.524,
+      "prefix_tokens": {
+        "prompt": 98,
+        "completion": 67,
+        "total": 165
+      },
+      "spec_calls": [
+        {
+          "name": "generate_contract",
+          "arguments": {
+            "contract_type": "Tenant Rights Guide - State of Texas",
+            "parties": "Tenant and Landlord",
+            "additional_details": "General overview of tenant rights under Texas law, including health and safety protections, security deposit rules, right to repair, and eviction procedures."
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_90",
+      "status": "ok",
+      "main_latency": 7.146,
+      "main_tokens": {
+        "prompt": 375,
+        "completion": 535,
+        "total": 910
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.181,
+      "prefix_tokens": {
+        "prompt": 96,
+        "completion": 38,
+        "total": 134
+      },
+      "spec_calls": [
+        {
+          "name": "file_complaint",
+          "arguments": {
+            "complaint_type": "noise",
+            "location": "New York",
+            "details": "I need information on Civil Law components."
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_91",
+      "status": "ok",
+      "main_latency": 2.887,
+      "main_tokens": {
+        "prompt": 372,
+        "completion": 227,
+        "total": 599
+      },
+      "main_calls": [
+        {
+          "name": "get_law_categories",
+          "arguments": {
+            "law_type": "noise complaint",
+            "country": "United States"
+          }
+        },
+        {
+          "name": "get_law_categories",
+          "arguments": {
+            "law_type": "municipal law",
+            "country": "United States",
+            "specific_category": "Atlanta"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.063,
+      "prefix_tokens": {
+        "prompt": 102,
+        "completion": 36,
+        "total": 138
+      },
+      "spec_calls": [
+        {
+          "name": "get_law_categories",
+          "arguments": {
+            "law_type": "noise complaint",
+            "country": "USA",
+            "specific_category": "Atlanta local ordinances"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_92",
+      "status": "ok",
+      "main_latency": 4.388,
+      "main_tokens": {
+        "prompt": 387,
+        "completion": 287,
+        "total": 674
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.618,
+      "prefix_tokens": {
+        "prompt": 114,
+        "completion": 32,
+        "total": 146
+      },
+      "spec_calls": [
+        {
+          "name": "search_lawyer",
+          "arguments": {
+            "area": "New York",
+            "specialization": "security",
+            "min_experience": 0
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_93",
+      "status": "ok",
+      "main_latency": 2.595,
+      "main_tokens": {
+        "prompt": 368,
+        "completion": 114,
+        "total": 482
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.312,
+      "prefix_tokens": {
+        "prompt": 102,
+        "completion": 29,
+        "total": 131
+      },
+      "spec_calls": [
+        {
+          "name": "law_firm.get_impactful_cases",
+          "arguments": {
+            "firm_name": "XYZ",
+            "year": 2023
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_94",
+      "status": "ok",
+      "main_latency": 5.105,
+      "main_tokens": {
+        "prompt": 373,
+        "completion": 362,
+        "total": 735
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.032,
+      "prefix_tokens": {
+        "prompt": 103,
+        "completion": 22,
+        "total": 125
+      },
+      "spec_calls": [
+        {
+          "name": "case_info.get",
+          "arguments": {
+            "case_id": "",
+            "case_year": "2020"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_95",
+      "status": "ok",
+      "main_latency": 3.024,
+      "main_tokens": {
+        "prompt": 383,
+        "completion": 203,
+        "total": 586
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.093,
+      "prefix_tokens": {
+        "prompt": 102,
+        "completion": 38,
+        "total": 140
+      },
+      "spec_calls": [
+        {
+          "name": "case_review.retrieve_case_outcome",
+          "arguments": {
+            "case_name": "Doe vs. Smith",
+            "case_year": 2024,
+            "location": ""
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_96",
+      "status": "ok",
+      "main_latency": 6.211,
+      "main_tokens": {
+        "prompt": 379,
+        "completion": 392,
+        "total": 771
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.146,
+      "prefix_tokens": {
+        "prompt": 104,
+        "completion": 2,
+        "total": 106
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_97",
+      "status": "ok",
+      "main_latency": 2.941,
+      "main_tokens": {
+        "prompt": 370,
+        "completion": 160,
+        "total": 530
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.851,
+      "prefix_tokens": {
+        "prompt": 90,
+        "completion": 2,
+        "total": 92
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_98",
+      "status": "ok",
+      "main_latency": 4.916,
+      "main_tokens": {
+        "prompt": 375,
+        "completion": 324,
+        "total": 699
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.797,
+      "prefix_tokens": {
+        "prompt": 104,
+        "completion": 2,
+        "total": 106
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_99",
+      "status": "ok",
+      "main_latency": 2.721,
+      "main_tokens": {
+        "prompt": 362,
+        "completion": 125,
+        "total": 487
+      },
+      "main_calls": [
+        {
+          "name": "lawsuit_search",
+          "arguments": {
+            "location": "Texas",
+            "subject": "traffic laws",
+            "year": 2024
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.268,
+      "prefix_tokens": {
+        "prompt": 94,
+        "completion": 23,
+        "total": 117
+      },
+      "spec_calls": [
+        {
+          "name": "lawsuit_search",
+          "arguments": {
+            "location": "Texas",
+            "subject": "traffic laws"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_100",
+      "status": "ok",
+      "main_latency": 2.707,
+      "main_tokens": {
+        "prompt": 389,
+        "completion": 200,
+        "total": 589
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.719,
+      "prefix_tokens": {
+        "prompt": 100,
+        "completion": 2,
+        "total": 102
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_101",
+      "status": "ok",
+      "main_latency": 5.561,
+      "main_tokens": {
+        "prompt": 341,
+        "completion": 763,
+        "total": 1104
+      },
+      "main_calls": [
+        {
+          "name": "get_average_monthly_temperature",
+          "arguments": {
+            "location": "Hawaii",
+            "month": "January"
+          }
+        },
+        {
+          "name": "get_average_monthly_temperature",
+          "arguments": {
+            "location": "Hawaii",
+            "month": "February"
+          }
+        },
+        {
+          "name": "get_average_monthly_temperature",
+          "arguments": {
+            "location": "Hawaii",
+            "month": "March"
+          }
+        },
+        {
+          "name": "get_average_monthly_temperature",
+          "arguments": {
+            "location": "Hawaii",
+            "month": "April"
+          }
+        },
+        {
+          "name": "get_average_monthly_temperature",
+          "arguments": {
+            "location": "Hawaii",
+            "month": "May"
+          }
+        },
+        {
+          "name": "get_average_monthly_temperature",
+          "arguments": {
+            "location": "Hawaii",
+            "month": "June"
+          }
+        },
+        {
+          "name": "get_average_monthly_temperature",
+          "arguments": {
+            "location": "Hawaii",
+            "month": "July"
+          }
+        },
+        {
+          "name": "get_average_monthly_temperature",
+          "arguments": {
+            "location": "Hawaii",
+            "month": "August"
+          }
+        },
+        {
+          "name": "get_average_monthly_temperature",
+          "arguments": {
+            "location": "Hawaii",
+            "month": "September"
+          }
+        },
+        {
+          "name": "get_average_monthly_temperature",
+          "arguments": {
+            "location": "Hawaii",
+            "month": "October"
+          }
+        },
+        {
+          "name": "get_average_monthly_temperature",
+          "arguments": {
+            "location": "Hawaii",
+            "month": "November"
+          }
+        },
+        {
+          "name": "get_average_monthly_temperature",
+          "arguments": {
+            "location": "Hawaii",
+            "month": "December"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.921,
+      "prefix_tokens": {
+        "prompt": 88,
+        "completion": 27,
+        "total": 115
+      },
+      "spec_calls": [
+        {
+          "name": "get_average_monthly_temperature",
+          "arguments": {
+            "location": "Hawaii",
+            "month": "January"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_102",
+      "status": "ok",
+      "main_latency": 2.564,
+      "main_tokens": {
+        "prompt": 390,
+        "completion": 210,
+        "total": 600
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.084,
+      "prefix_tokens": {
+        "prompt": 101,
+        "completion": 17,
+        "total": 118
+      },
+      "spec_calls": [
+        {
+          "name": "get_current_time",
+          "arguments": {
+            "location": "New York City"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_103",
+      "status": "ok",
+      "main_latency": 3.217,
+      "main_tokens": {
+        "prompt": 353,
+        "completion": 246,
+        "total": 599
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.14,
+      "prefix_tokens": {
+        "prompt": 90,
+        "completion": 24,
+        "total": 114
+      },
+      "spec_calls": [
+        {
+          "name": "weather_forecast.get",
+          "arguments": {
+            "location": "New York City",
+            "hour": 0
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_104",
+      "status": "ok",
+      "main_latency": 3.832,
+      "main_tokens": {
+        "prompt": 365,
+        "completion": 311,
+        "total": 676
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.016,
+      "prefix_tokens": {
+        "prompt": 100,
+        "completion": 28,
+        "total": 128
+      },
+      "spec_calls": [
+        {
+          "name": "calculate_park_area",
+          "arguments": {
+            "radius": 3,
+            "units": "units",
+            "shape": "sphere"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_105",
+      "status": "ok",
+      "main_latency": 5.748,
+      "main_tokens": {
+        "prompt": 372,
+        "completion": 403,
+        "total": 775
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.731,
+      "prefix_tokens": {
+        "prompt": 95,
+        "completion": 2,
+        "total": 97
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_106",
+      "status": "ok",
+      "main_latency": 3.837,
+      "main_tokens": {
+        "prompt": 383,
+        "completion": 299,
+        "total": 682
+      },
+      "main_calls": [
+        {
+          "name": "soil_analysis.analyze_soil_type",
+          "arguments": {
+            "soil_type": "loam",
+            "parameters_needed": [
+              "pH level",
+              "Mineral content",
+              "Organic matter content"
+            ]
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.117,
+      "prefix_tokens": {
+        "prompt": 97,
+        "completion": 34,
+        "total": 131
+      },
+      "spec_calls": [
+        {
+          "name": "soil_analysis.analyze_soil_type",
+          "arguments": {
+            "soil_type": "loam",
+            "parameters_needed": "pH, nutrient profile"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_107",
+      "status": "ok",
+      "main_latency": 5.595,
+      "main_tokens": {
+        "prompt": 383,
+        "completion": 490,
+        "total": 873
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.157,
+      "prefix_tokens": {
+        "prompt": 111,
+        "completion": 28,
+        "total": 139
+      },
+      "spec_calls": [
+        {
+          "name": "soil_composition_analyze",
+          "arguments": {
+            "location": "Boston",
+            "soil_sample": false,
+            "season": ""
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_108",
+      "status": "ok",
+      "main_latency": 8.516,
+      "main_tokens": {
+        "prompt": 421,
+        "completion": 676,
+        "total": 1097
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.114,
+      "prefix_tokens": {
+        "prompt": 102,
+        "completion": 40,
+        "total": 142
+      },
+      "spec_calls": [
+        {
+          "name": "emission_estimator",
+          "arguments": {
+            "current_emissions": 100,
+            "action": "reduce fossil fuel use",
+            "scale": "global",
+            "duration": 1
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_109",
+      "status": "ok",
+      "main_latency": 3.488,
+      "main_tokens": {
+        "prompt": 402,
+        "completion": 287,
+        "total": 689
+      },
+      "main_calls": [
+        {
+          "name": "calculate_water_needs",
+          "arguments": {
+            "plant_type": "cactus",
+            "location": "Arizona",
+            "season": "summer"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.444,
+      "prefix_tokens": {
+        "prompt": 109,
+        "completion": 33,
+        "total": 142
+      },
+      "spec_calls": [
+        {
+          "name": "calculate_water_needs",
+          "arguments": {
+            "plant_type": "cactus",
+            "location": "Arizona",
+            "season": "summer"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_110",
+      "status": "ok",
+      "main_latency": 3.909,
+      "main_tokens": {
+        "prompt": 361,
+        "completion": 286,
+        "total": 647
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.836,
+      "prefix_tokens": {
+        "prompt": 95,
+        "completion": 2,
+        "total": 97
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_111",
+      "status": "ok",
+      "main_latency": 3.21,
+      "main_tokens": {
+        "prompt": 415,
+        "completion": 238,
+        "total": 653
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.843,
+      "prefix_tokens": {
+        "prompt": 114,
+        "completion": 43,
+        "total": 157
+      },
+      "spec_calls": [
+        {
+          "name": "geo_location_based_products.fetch_eco_friendly_products",
+          "arguments": {
+            "location": "user_location",
+            "product_category": "yoga mat",
+            "availability": "in-store"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_112",
+      "status": "ok",
+      "main_latency": 3.081,
+      "main_tokens": {
+        "prompt": 359,
+        "completion": 234,
+        "total": 593
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.63,
+      "prefix_tokens": {
+        "prompt": 109,
+        "completion": 19,
+        "total": 128
+      },
+      "spec_calls": [
+        {
+          "name": "get_traffic_condition",
+          "arguments": {
+            "city": "New York"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_113",
+      "status": "ok",
+      "main_latency": 1.558,
+      "main_tokens": {
+        "prompt": 384,
+        "completion": 90,
+        "total": 474
+      },
+      "main_calls": [
+        {
+          "name": "find_pois",
+          "arguments": {
+            "location": "London, UK",
+            "category": [
+              "Restaurants"
+            ]
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.566,
+      "prefix_tokens": {
+        "prompt": 92,
+        "completion": 23,
+        "total": 115
+      },
+      "spec_calls": [
+        {
+          "name": "find_pois",
+          "arguments": {
+            "location": "London",
+            "category": "restaurant"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_114",
+      "status": "ok",
+      "main_latency": 2.477,
+      "main_tokens": {
+        "prompt": 378,
+        "completion": 223,
+        "total": 601
+      },
+      "main_calls": [
+        {
+          "name": "get_closest_airport",
+          "arguments": {
+            "location": "Los Angeles",
+            "limit": 3
+          }
+        },
+        {
+          "name": "get_closest_airport",
+          "arguments": {
+            "location": "New York",
+            "limit": 3
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.898,
+      "prefix_tokens": {
+        "prompt": 98,
+        "completion": 2,
+        "total": 100
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_115",
+      "status": "ok",
+      "main_latency": 2.871,
+      "main_tokens": {
+        "prompt": 364,
+        "completion": 252,
+        "total": 616
+      },
+      "main_calls": [
+        {
+          "name": "calculate_distance",
+          "arguments": {
+            "origin": {
+              "latitude": 42.3601,
+              "longitude": -71.0589
+            },
+            "destination": {
+              "latitude": 40.7128,
+              "longitude": -74.006
+            },
+            "speed": 65
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.766,
+      "prefix_tokens": {
+        "prompt": 94,
+        "completion": 30,
+        "total": 124
+      },
+      "spec_calls": [
+        {
+          "name": "calculate_distance",
+          "arguments": {
+            "origin": "Boston, MA",
+            "destination": "New York, NY",
+            "speed": 60
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_116",
+      "status": "ok",
+      "main_latency": 4.259,
+      "main_tokens": {
+        "prompt": 333,
+        "completion": 307,
+        "total": 640
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.832,
+      "prefix_tokens": {
+        "prompt": 84,
+        "completion": 2,
+        "total": 86
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_117",
+      "status": "ok",
+      "main_latency": 6.786,
+      "main_tokens": {
+        "prompt": 424,
+        "completion": 679,
+        "total": 1103
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.628,
+      "prefix_tokens": {
+        "prompt": 104,
+        "completion": 2,
+        "total": 106
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_118",
+      "status": "ok",
+      "main_latency": 1.589,
+      "main_tokens": {
+        "prompt": 349,
+        "completion": 123,
+        "total": 472
+      },
+      "main_calls": [
+        {
+          "name": "playoff.brackets",
+          "arguments": {
+            "year": 1996,
+            "round": "Finals"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.034,
+      "prefix_tokens": {
+        "prompt": 85,
+        "completion": 25,
+        "total": 110
+      },
+      "spec_calls": [
+        {
+          "name": "playoff.brackets",
+          "arguments": {
+            "year": 1996,
+            "round": "Finals"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_119",
+      "status": "ok",
+      "main_latency": 2.669,
+      "main_tokens": {
+        "prompt": 350,
+        "completion": 152,
+        "total": 502
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.451,
+      "prefix_tokens": {
+        "prompt": 87,
+        "completion": 65,
+        "total": 152
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_120",
+      "status": "ok",
+      "main_latency": 4.654,
+      "main_tokens": {
+        "prompt": 383,
+        "completion": 353,
+        "total": 736
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.973,
+      "prefix_tokens": {
+        "prompt": 104,
+        "completion": 2,
+        "total": 106
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_121",
+      "status": "ok",
+      "main_latency": 1.18,
+      "main_tokens": {
+        "prompt": 340,
+        "completion": 83,
+        "total": 423
+      },
+      "main_calls": [
+        {
+          "name": "medical_records.get_disease_info",
+          "arguments": {
+            "disease_name": "motor neuron disease"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.998,
+      "prefix_tokens": {
+        "prompt": 94,
+        "completion": 23,
+        "total": 117
+      },
+      "spec_calls": [
+        {
+          "name": "medical_records.get_disease_info",
+          "arguments": {
+            "disease_name": "motor neuron disease"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_122",
+      "status": "ok",
+      "main_latency": 3.25,
+      "main_tokens": {
+        "prompt": 410,
+        "completion": 228,
+        "total": 638
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.669,
+      "prefix_tokens": {
+        "prompt": 104,
+        "completion": 2,
+        "total": 106
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_123",
+      "status": "ok",
+      "main_latency": 1.902,
+      "main_tokens": {
+        "prompt": 374,
+        "completion": 141,
+        "total": 515
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.893,
+      "prefix_tokens": {
+        "prompt": 93,
+        "completion": 2,
+        "total": 95
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_124",
+      "status": "ok",
+      "main_latency": 1.573,
+      "main_tokens": {
+        "prompt": 335,
+        "completion": 106,
+        "total": 441
+      },
+      "main_calls": [
+        {
+          "name": "get_social_trends",
+          "arguments": {
+            "category": "technology",
+            "region": "worldwide"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.857,
+      "prefix_tokens": {
+        "prompt": 85,
+        "completion": 24,
+        "total": 109
+      },
+      "spec_calls": [
+        {
+          "name": "get_social_trends",
+          "arguments": {
+            "category": "technology",
+            "region": "global"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_125",
+      "status": "ok",
+      "main_latency": 1.932,
+      "main_tokens": {
+        "prompt": 360,
+        "completion": 140,
+        "total": 500
+      },
+      "main_calls": [
+        {
+          "name": "get_recent_tweets",
+          "arguments": {
+            "username": "jk_rowling",
+            "count": 10
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.121,
+      "prefix_tokens": {
+        "prompt": 97,
+        "completion": 32,
+        "total": 129
+      },
+      "spec_calls": [
+        {
+          "name": "get_recent_tweets",
+          "arguments": {
+            "username": "jk_rowling",
+            "count": 5,
+            "exclude_replies": true
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_126",
+      "status": "ok",
+      "main_latency": 3.813,
+      "main_tokens": {
+        "prompt": 410,
+        "completion": 395,
+        "total": 805
+      },
+      "main_calls": [
+        {
+          "name": "get_happiness_index",
+          "arguments": {
+            "country": "United States",
+            "year": 2024,
+            "demographic_group": "high income"
+          }
+        },
+        {
+          "name": "get_happiness_index",
+          "arguments": {
+            "country": "United States",
+            "year": 2024,
+            "demographic_group": "middle income"
+          }
+        },
+        {
+          "name": "get_happiness_index",
+          "arguments": {
+            "country": "United States",
+            "year": 2024,
+            "demographic_group": "low income"
+          }
+        },
+        {
+          "name": "get_happiness_index",
+          "arguments": {
+            "country": "United States",
+            "year": 2024,
+            "demographic_group": "total"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.039,
+      "prefix_tokens": {
+        "prompt": 104,
+        "completion": 32,
+        "total": 136
+      },
+      "spec_calls": [
+        {
+          "name": "get_happiness_index",
+          "arguments": {
+            "country": "global",
+            "year": 2023,
+            "demographic_group": "economic status"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_127",
+      "status": "ok",
+      "main_latency": 2.013,
+      "main_tokens": {
+        "prompt": 366,
+        "completion": 165,
+        "total": 531
+      },
+      "main_calls": [
+        {
+          "name": "sentiment_analysis.twitter",
+          "arguments": {
+            "topic": "new iPhone release",
+            "language": "en",
+            "num_tweets": 100
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.036,
+      "prefix_tokens": {
+        "prompt": 103,
+        "completion": 33,
+        "total": 136
+      },
+      "spec_calls": [
+        {
+          "name": "sentiment_analysis.twitter",
+          "arguments": {
+            "topic": "new iPhone",
+            "language": "en",
+            "num_tweets": 100
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_128",
+      "status": "ok",
+      "main_latency": 4.476,
+      "main_tokens": {
+        "prompt": 385,
+        "completion": 330,
+        "total": 715
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.014,
+      "prefix_tokens": {
+        "prompt": 100,
+        "completion": 2,
+        "total": 102
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_129",
+      "status": "ok",
+      "main_latency": 4.305,
+      "main_tokens": {
+        "prompt": 414,
+        "completion": 334,
+        "total": 748
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.373,
+      "prefix_tokens": {
+        "prompt": 99,
+        "completion": 48,
+        "total": 147
+      },
+      "spec_calls": [
+        {
+          "name": "personality_assessment.evaluate",
+          "arguments": {
+            "traits": "Extroversion: 70%, Intuition: 80%, Thinking: 60%, Judging: 75%",
+            "detailed_output": true
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_130",
+      "status": "ok",
+      "main_latency": 6.293,
+      "main_tokens": {
+        "prompt": 401,
+        "completion": 518,
+        "total": 919
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.871,
+      "prefix_tokens": {
+        "prompt": 105,
+        "completion": 31,
+        "total": 136
+      },
+      "spec_calls": [
+        {
+          "name": "calculate_big_five_traits",
+          "arguments": {
+            "answers": "",
+            "calculate_percentile": false,
+            "average_answers": false
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_131",
+      "status": "ok",
+      "main_latency": 1.561,
+      "main_tokens": {
+        "prompt": 378,
+        "completion": 111,
+        "total": 489
+      },
+      "main_calls": [
+        {
+          "name": "psychology.color_representation",
+          "arguments": {
+            "color": "purple",
+            "context": "computer vision"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.037,
+      "prefix_tokens": {
+        "prompt": 95,
+        "completion": 31,
+        "total": 126
+      },
+      "spec_calls": [
+        {
+          "name": "psychology.color_representation",
+          "arguments": {
+            "color": "purple",
+            "context": "computer vision",
+            "individual_traits": ""
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_132",
+      "status": "ok",
+      "main_latency": 4.459,
+      "main_tokens": {
+        "prompt": 336,
+        "completion": 348,
+        "total": 684
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.776,
+      "prefix_tokens": {
+        "prompt": 88,
+        "completion": 23,
+        "total": 111
+      },
+      "spec_calls": [
+        {
+          "name": "historical_event.get_date",
+          "arguments": {
+            "event_name": "Battle of Waterloo",
+            "format": ""
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_133",
+      "status": "ok",
+      "main_latency": 2.477,
+      "main_tokens": {
+        "prompt": 371,
+        "completion": 167,
+        "total": 538
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.743,
+      "prefix_tokens": {
+        "prompt": 97,
+        "completion": 2,
+        "total": 99
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_134",
+      "status": "ok",
+      "main_latency": 2.493,
+      "main_tokens": {
+        "prompt": 377,
+        "completion": 179,
+        "total": 556
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.963,
+      "prefix_tokens": {
+        "prompt": 106,
+        "completion": 2,
+        "total": 108
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_135",
+      "status": "ok",
+      "main_latency": 1.954,
+      "main_tokens": {
+        "prompt": 360,
+        "completion": 108,
+        "total": 468
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.909,
+      "prefix_tokens": {
+        "prompt": 87,
+        "completion": 27,
+        "total": 114
+      },
+      "spec_calls": [
+        {
+          "name": "add_dates",
+          "arguments": {
+            "date": "1776-07-04",
+            "days_to_add": 0
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_136",
+      "status": "ok",
+      "main_latency": 1.543,
+      "main_tokens": {
+        "prompt": 335,
+        "completion": 100,
+        "total": 435
+      },
+      "main_calls": [
+        {
+          "name": "us_president_in_year",
+          "arguments": {
+            "year": 2024
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.65,
+      "prefix_tokens": {
+        "prompt": 91,
+        "completion": 17,
+        "total": 108
+      },
+      "spec_calls": [
+        {
+          "name": "us_president_in_year",
+          "arguments": {
+            "year": 2025
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_137",
+      "status": "ok",
+      "main_latency": 7.354,
+      "main_tokens": {
+        "prompt": 378,
+        "completion": 492,
+        "total": 870
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.211,
+      "prefix_tokens": {
+        "prompt": 92,
+        "completion": 39,
+        "total": 131
+      },
+      "spec_calls": [
+        {
+          "name": "historical_event.get_date",
+          "arguments": {
+            "event_name": "Declaration of Independence signing",
+            "event_location": "United States",
+            "event_time_period": "18th century"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_138",
+      "status": "ok",
+      "main_latency": 3.727,
+      "main_tokens": {
+        "prompt": 350,
+        "completion": 257,
+        "total": 607
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.725,
+      "prefix_tokens": {
+        "prompt": 87,
+        "completion": 2,
+        "total": 89
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_139",
+      "status": "ok",
+      "main_latency": 6.552,
+      "main_tokens": {
+        "prompt": 346,
+        "completion": 458,
+        "total": 804
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.205,
+      "prefix_tokens": {
+        "prompt": 87,
+        "completion": 26,
+        "total": 113
+      },
+      "spec_calls": [
+        {
+          "name": "space.star_info",
+          "arguments": {
+            "star_name": "Jupiter",
+            "information": "largest planet"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_140",
+      "status": "ok",
+      "main_latency": 5.329,
+      "main_tokens": {
+        "prompt": 369,
+        "completion": 378,
+        "total": 747
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.974,
+      "prefix_tokens": {
+        "prompt": 90,
+        "completion": 2,
+        "total": 92
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_141",
+      "status": "ok",
+      "main_latency": 4.217,
+      "main_tokens": {
+        "prompt": 350,
+        "completion": 290,
+        "total": 640
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.132,
+      "prefix_tokens": {
+        "prompt": 94,
+        "completion": 29,
+        "total": 123
+      },
+      "spec_calls": [
+        {
+          "name": "look_up_scientific_contributions",
+          "arguments": {
+            "scientist_name": "Hydrogen",
+            "contributions": 1
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_142",
+      "status": "ok",
+      "main_latency": 2.529,
+      "main_tokens": {
+        "prompt": 314,
+        "completion": 172,
+        "total": 486
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.891,
+      "prefix_tokens": {
+        "prompt": 88,
+        "completion": 2,
+        "total": 90
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_143",
+      "status": "ok",
+      "main_latency": 3.949,
+      "main_tokens": {
+        "prompt": 379,
+        "completion": 357,
+        "total": 736
+      },
+      "main_calls": [
+        {
+          "name": "get_historical_figure_info",
+          "arguments": {
+            "name": "Aristotle",
+            "detail": "achievement",
+            "region": "global"
+          }
+        },
+        {
+          "name": "get_historical_figure_info",
+          "arguments": {
+            "name": "Galileo Galilei",
+            "detail": "achievement",
+            "region": "global"
+          }
+        },
+        {
+          "name": "get_historical_figure_info",
+          "arguments": {
+            "name": "Isaac Newton",
+            "detail": "achievement",
+            "region": "global"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.978,
+      "prefix_tokens": {
+        "prompt": 94,
+        "completion": 26,
+        "total": 120
+      },
+      "spec_calls": [
+        {
+          "name": "get_historical_figure_info",
+          "arguments": {
+            "name": "scientist",
+            "detail": "definition"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_144",
+      "status": "ok",
+      "main_latency": 4.873,
+      "main_tokens": {
+        "prompt": 356,
+        "completion": 371,
+        "total": 727
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.149,
+      "prefix_tokens": {
+        "prompt": 91,
+        "completion": 24,
+        "total": 115
+      },
+      "spec_calls": [
+        {
+          "name": "search_holy_books",
+          "arguments": {
+            "book": "",
+            "content": "holy book definition"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_145",
+      "status": "ok",
+      "main_latency": 2.678,
+      "main_tokens": {
+        "prompt": 361,
+        "completion": 184,
+        "total": 545
+      },
+      "main_calls": [
+        {
+          "name": "religion_history.get_event_year",
+          "arguments": {
+            "event_name": "Protestant Reformation initiation",
+            "period": "16th century",
+            "location": "Wittenberg, Germany"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.278,
+      "prefix_tokens": {
+        "prompt": 89,
+        "completion": 36,
+        "total": 125
+      },
+      "spec_calls": [
+        {
+          "name": "religion_history.get_event_year",
+          "arguments": {
+            "event_name": "Protestant Reformation",
+            "period": "16th century",
+            "location": "Europe"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_146",
+      "status": "ok",
+      "main_latency": 4.821,
+      "main_tokens": {
+        "prompt": 380,
+        "completion": 448,
+        "total": 828
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.091,
+      "prefix_tokens": {
+        "prompt": 106,
+        "completion": 28,
+        "total": 134
+      },
+      "spec_calls": [
+        {
+          "name": "mix_color_codes",
+          "arguments": {
+            "color1": "#FAEBD7",
+            "color2": "#00FFFF"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_147",
+      "status": "ok",
+      "main_latency": 6.278,
+      "main_tokens": {
+        "prompt": 393,
+        "completion": 430,
+        "total": 823
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.008,
+      "prefix_tokens": {
+        "prompt": 95,
+        "completion": 2,
+        "total": 97
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_148",
+      "status": "ok",
+      "main_latency": 5.653,
+      "main_tokens": {
+        "prompt": 357,
+        "completion": 405,
+        "total": 762
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.989,
+      "prefix_tokens": {
+        "prompt": 101,
+        "completion": 23,
+        "total": 124
+      },
+      "spec_calls": [
+        {
+          "name": "color_complimentary",
+          "arguments": {
+            "color": "blue",
+            "color_format": "name"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_149",
+      "status": "ok",
+      "main_latency": 5.809,
+      "main_tokens": {
+        "prompt": 386,
+        "completion": 442,
+        "total": 828
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.019,
+      "prefix_tokens": {
+        "prompt": 103,
+        "completion": 25,
+        "total": 128
+      },
+      "spec_calls": [
+        {
+          "name": "calculate_paint_mix",
+          "arguments": {
+            "target_color": "sky blue",
+            "available_colors": ""
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_150",
+      "status": "ok",
+      "main_latency": 4.683,
+      "main_tokens": {
+        "prompt": 394,
+        "completion": 318,
+        "total": 712
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.734,
+      "prefix_tokens": {
+        "prompt": 105,
+        "completion": 2,
+        "total": 107
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_151",
+      "status": "ok",
+      "main_latency": 3.792,
+      "main_tokens": {
+        "prompt": 364,
+        "completion": 227,
+        "total": 591
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.27,
+      "prefix_tokens": {
+        "prompt": 94,
+        "completion": 50,
+        "total": 144
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_152",
+      "status": "ok",
+      "main_latency": 7.908,
+      "main_tokens": {
+        "prompt": 365,
+        "completion": 572,
+        "total": 937
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.371,
+      "prefix_tokens": {
+        "prompt": 98,
+        "completion": 31,
+        "total": 129
+      },
+      "spec_calls": [
+        {
+          "name": "sculpture.create",
+          "arguments": {
+            "design": "garden sculpture",
+            "material": "granite",
+            "size": "medium"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_153",
+      "status": "ok",
+      "main_latency": 7.243,
+      "main_tokens": {
+        "prompt": 395,
+        "completion": 513,
+        "total": 908
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.978,
+      "prefix_tokens": {
+        "prompt": 105,
+        "completion": 2,
+        "total": 107
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_154",
+      "status": "ok",
+      "main_latency": 4.32,
+      "main_tokens": {
+        "prompt": 374,
+        "completion": 306,
+        "total": 680
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.869,
+      "prefix_tokens": {
+        "prompt": 100,
+        "completion": 32,
+        "total": 132
+      },
+      "spec_calls": [
+        {
+          "name": "sculpture_info.find_creator",
+          "arguments": {
+            "sculpture_name": "Camp Nou Stadium",
+            "location": "Barcelona"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_155",
+      "status": "ok",
+      "main_latency": 2.604,
+      "main_tokens": {
+        "prompt": 368,
+        "completion": 149,
+        "total": 517
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.974,
+      "prefix_tokens": {
+        "prompt": 95,
+        "completion": 2,
+        "total": 97
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_156",
+      "status": "ok",
+      "main_latency": 2.496,
+      "main_tokens": {
+        "prompt": 405,
+        "completion": 140,
+        "total": 545
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.73,
+      "prefix_tokens": {
+        "prompt": 100,
+        "completion": 2,
+        "total": 102
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_157",
+      "status": "ok",
+      "main_latency": 2.267,
+      "main_tokens": {
+        "prompt": 350,
+        "completion": 137,
+        "total": 487
+      },
+      "main_calls": [
+        {
+          "name": "building_information.get_data",
+          "arguments": {
+            "building_name": "Cathedral",
+            "info_requested": "architecture features"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.999,
+      "prefix_tokens": {
+        "prompt": 87,
+        "completion": 35,
+        "total": 122
+      },
+      "spec_calls": [
+        {
+          "name": "building_information.get_data",
+          "arguments": {
+            "building_name": "Notre-Dame de Paris",
+            "info_requested": "ceiling design and structure"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_158",
+      "status": "ok",
+      "main_latency": 3.789,
+      "main_tokens": {
+        "prompt": 411,
+        "completion": 262,
+        "total": 673
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.789,
+      "prefix_tokens": {
+        "prompt": 103,
+        "completion": 2,
+        "total": 105
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_159",
+      "status": "ok",
+      "main_latency": 1.726,
+      "main_tokens": {
+        "prompt": 377,
+        "completion": 123,
+        "total": 500
+      },
+      "main_calls": [
+        {
+          "name": "artwork_search",
+          "arguments": {
+            "artwork_name": "The Scream",
+            "museum_location": "Oslo, Norway",
+            "specific_details": "artist"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.272,
+      "prefix_tokens": {
+        "prompt": 98,
+        "completion": 35,
+        "total": 133
+      },
+      "spec_calls": [
+        {
+          "name": "artwork_search",
+          "arguments": {
+            "artwork_name": "The Scream",
+            "museum_location": "Oslo",
+            "specific_details": "artist name"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_160",
+      "status": "ok",
+      "main_latency": 3.763,
+      "main_tokens": {
+        "prompt": 416,
+        "completion": 324,
+        "total": 740
+      },
+      "main_calls": [
+        {
+          "name": "most_frequent_visitor",
+          "arguments": {
+            "museum_name": "Museum of Modern Art",
+            "start_date": "2024-01-01",
+            "end_date": "2024-12-31",
+            "minimum_visits": 1
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.09,
+      "prefix_tokens": {
+        "prompt": 114,
+        "completion": 55,
+        "total": 169
+      },
+      "spec_calls": [
+        {
+          "name": "most_frequent_visitor",
+          "arguments": {
+            "museum_name": "Museum of Modern Art",
+            "start_date": "2024-01-01",
+            "end_date": "2024-12-31",
+            "minimum_visits": 2
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_161",
+      "status": "ok",
+      "main_latency": 4.649,
+      "main_tokens": {
+        "prompt": 364,
+        "completion": 361,
+        "total": 725
+      },
+      "main_calls": [
+        {
+          "name": "museum_data.get_visit_stats",
+          "arguments": {
+            "city": "New York",
+            "year": 2023
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.032,
+      "prefix_tokens": {
+        "prompt": 91,
+        "completion": 25,
+        "total": 116
+      },
+      "spec_calls": [
+        {
+          "name": "museum_data.get_visit_stats",
+          "arguments": {
+            "city": "New York",
+            "year": 2024
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_162",
+      "status": "ok",
+      "main_latency": 1.882,
+      "main_tokens": {
+        "prompt": 385,
+        "completion": 130,
+        "total": 515
+      },
+      "main_calls": [
+        {
+          "name": "get_museum_artists",
+          "arguments": {
+            "museum_name": "Metropolitan Museum of Art",
+            "period": "19th Century",
+            "country": "USA"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.005,
+      "prefix_tokens": {
+        "prompt": 106,
+        "completion": 29,
+        "total": 135
+      },
+      "spec_calls": [
+        {
+          "name": "get_museum_artists",
+          "arguments": {
+            "museum_name": "",
+            "period": "19th Century",
+            "country": ""
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_163",
+      "status": "ok",
+      "main_latency": 5.123,
+      "main_tokens": {
+        "prompt": 362,
+        "completion": 308,
+        "total": 670
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.037,
+      "prefix_tokens": {
+        "prompt": 93,
+        "completion": 2,
+        "total": 95
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_164",
+      "status": "ok",
+      "main_latency": 1.602,
+      "main_tokens": {
+        "prompt": 369,
+        "completion": 115,
+        "total": 484
+      },
+      "main_calls": [
+        {
+          "name": "search_music_instrument_players",
+          "arguments": {
+            "instrument": "singer",
+            "genre": "Jazz",
+            "top": 10
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.026,
+      "prefix_tokens": {
+        "prompt": 96,
+        "completion": 32,
+        "total": 128
+      },
+      "spec_calls": [
+        {
+          "name": "search_music_instrument_players",
+          "arguments": {
+            "instrument": "singer",
+            "genre": "Jazz",
+            "top": 1
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_165",
+      "status": "ok",
+      "main_latency": 1.4,
+      "main_tokens": {
+        "prompt": 354,
+        "completion": 88,
+        "total": 442
+      },
+      "main_calls": [
+        {
+          "name": "get_instrument_info",
+          "arguments": {
+            "instrument_name": "cello",
+            "detail": "type"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.005,
+      "prefix_tokens": {
+        "prompt": 93,
+        "completion": 18,
+        "total": 111
+      },
+      "spec_calls": [
+        {
+          "name": "get_instrument_info",
+          "arguments": {
+            "instrument_name": "cello"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_166",
+      "status": "ok",
+      "main_latency": 7.291,
+      "main_tokens": {
+        "prompt": 364,
+        "completion": 476,
+        "total": 840
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.774,
+      "prefix_tokens": {
+        "prompt": 98,
+        "completion": 2,
+        "total": 100
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_167",
+      "status": "ok",
+      "main_latency": 3.793,
+      "main_tokens": {
+        "prompt": 360,
+        "completion": 355,
+        "total": 715
+      },
+      "main_calls": [
+        {
+          "name": "get_concert_info",
+          "arguments": {
+            "concert_id": 1,
+            "include_artist_info": true,
+            "include_venue_info": true
+          }
+        },
+        {
+          "name": "get_concert_info",
+          "arguments": {
+            "concert_id": 2,
+            "include_artist_info": true,
+            "include_venue_info": true
+          }
+        },
+        {
+          "name": "get_concert_info",
+          "arguments": {
+            "concert_id": 3,
+            "include_artist_info": true,
+            "include_venue_info": true
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.026,
+      "prefix_tokens": {
+        "prompt": 96,
+        "completion": 32,
+        "total": 128
+      },
+      "spec_calls": [
+        {
+          "name": "get_concert_info",
+          "arguments": {
+            "concert_id": 1,
+            "include_artist_info": true,
+            "include_venue_info": false
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_168",
+      "status": "ok",
+      "main_latency": 3.456,
+      "main_tokens": {
+        "prompt": 361,
+        "completion": 257,
+        "total": 618
+      },
+      "main_calls": [
+        {
+          "name": "concert_availability",
+          "arguments": {
+            "artist": "University",
+            "location": "Sydney",
+            "date": "2024-05"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.917,
+      "prefix_tokens": {
+        "prompt": 93,
+        "completion": 27,
+        "total": 120
+      },
+      "spec_calls": [
+        {
+          "name": "concert_availability",
+          "arguments": {
+            "artist": "class",
+            "location": "Sydney",
+            "date": "May"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_169",
+      "status": "ok",
+      "main_latency": 3.852,
+      "main_tokens": {
+        "prompt": 392,
+        "completion": 276,
+        "total": 668
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.048,
+      "prefix_tokens": {
+        "prompt": 99,
+        "completion": 33,
+        "total": 132
+      },
+      "spec_calls": [
+        {
+          "name": "concert_search.find_concerts",
+          "arguments": {
+            "venue": "Madison Square Garden",
+            "date": "tonight",
+            "artist": ""
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_170",
+      "status": "ok",
+      "main_latency": 5.948,
+      "main_tokens": {
+        "prompt": 346,
+        "completion": 518,
+        "total": 864
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.222,
+      "prefix_tokens": {
+        "prompt": 91,
+        "completion": 32,
+        "total": 123
+      },
+      "spec_calls": [
+        {
+          "name": "music_theory.create_chord_progression",
+          "arguments": {
+            "key": "C major",
+            "progression_pattern": "I-IV-V-I"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_171",
+      "status": "ok",
+      "main_latency": 10.02,
+      "main_tokens": {
+        "prompt": 358,
+        "completion": 705,
+        "total": 1063
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.194,
+      "prefix_tokens": {
+        "prompt": 88,
+        "completion": 30,
+        "total": 118
+      },
+      "spec_calls": [
+        {
+          "name": "music.search_composer",
+          "arguments": {
+            "title": "Who establish laws and orders in Ancient Greek.",
+            "epoch": "ancient"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_172",
+      "status": "ok",
+      "main_latency": 4.067,
+      "main_tokens": {
+        "prompt": 362,
+        "completion": 351,
+        "total": 713
+      },
+      "main_calls": [
+        {
+          "name": "music_composer.composition_info",
+          "arguments": {
+            "composition_name": "Don Quixote",
+            "need_detailed_info": true
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.948,
+      "prefix_tokens": {
+        "prompt": 95,
+        "completion": 30,
+        "total": 125
+      },
+      "spec_calls": [
+        {
+          "name": "music_composer.composition_info",
+          "arguments": {
+            "composition_name": "Don Quixote",
+            "need_detailed_info": false
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_173",
+      "status": "ok",
+      "main_latency": 4.717,
+      "main_tokens": {
+        "prompt": 349,
+        "completion": 390,
+        "total": 739
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.973,
+      "prefix_tokens": {
+        "prompt": 99,
+        "completion": 28,
+        "total": 127
+      },
+      "spec_calls": [
+        {
+          "name": "music_analysis.find_common_chords",
+          "arguments": {
+            "genre": "pop",
+            "num_chords": 3
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_174",
+      "status": "ok",
+      "main_latency": 7.558,
+      "main_tokens": {
+        "prompt": 353,
+        "completion": 590,
+        "total": 943
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.883,
+      "prefix_tokens": {
+        "prompt": 96,
+        "completion": 29,
+        "total": 125
+      },
+      "spec_calls": [
+        {
+          "name": "music_theory.primary_triads",
+          "arguments": {
+            "key_signature": "C major",
+            "include_inversions": false
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_175",
+      "status": "ok",
+      "main_latency": 2.909,
+      "main_tokens": {
+        "prompt": 341,
+        "completion": 194,
+        "total": 535
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.197,
+      "prefix_tokens": {
+        "prompt": 94,
+        "completion": 51,
+        "total": 145
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_176",
+      "status": "ok",
+      "main_latency": 7.527,
+      "main_tokens": {
+        "prompt": 346,
+        "completion": 610,
+        "total": 956
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.818,
+      "prefix_tokens": {
+        "prompt": 101,
+        "completion": 19,
+        "total": 120
+      },
+      "spec_calls": [
+        {
+          "name": "find_composer",
+          "arguments": {
+            "piece_name": "Blues Scale A"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_177",
+      "status": "ok",
+      "main_latency": 4.35,
+      "main_tokens": {
+        "prompt": 377,
+        "completion": 334,
+        "total": 711
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.943,
+      "prefix_tokens": {
+        "prompt": 102,
+        "completion": 32,
+        "total": 134
+      },
+      "spec_calls": [
+        {
+          "name": "get_song_chord_progression",
+          "arguments": {
+            "song_name": "Best Album",
+            "artist_name": "Grammy 2017"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_178",
+      "status": "ok",
+      "main_latency": 5.661,
+      "main_tokens": {
+        "prompt": 383,
+        "completion": 406,
+        "total": 789
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.94,
+      "prefix_tokens": {
+        "prompt": 98,
+        "completion": 28,
+        "total": 126
+      },
+      "spec_calls": [
+        {
+          "name": "sports_analysis.get_top_scorer",
+          "arguments": {
+            "league": "Premier League",
+            "season": "current"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_179",
+      "status": "ok",
+      "main_latency": 3.152,
+      "main_tokens": {
+        "prompt": 393,
+        "completion": 198,
+        "total": 591
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.778,
+      "prefix_tokens": {
+        "prompt": 97,
+        "completion": 2,
+        "total": 99
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_180",
+      "status": "ok",
+      "main_latency": 3.811,
+      "main_tokens": {
+        "prompt": 381,
+        "completion": 226,
+        "total": 607
+      },
+      "main_calls": [
+        {
+          "name": "sports_analyzer.get_schedule",
+          "arguments": {
+            "sport": "cricket",
+            "date": "today"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.364,
+      "prefix_tokens": {
+        "prompt": 96,
+        "completion": 28,
+        "total": 124
+      },
+      "spec_calls": [
+        {
+          "name": "sports_analyzer.get_schedule",
+          "arguments": {
+            "date": "today",
+            "sport": "cricket"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_181",
+      "status": "ok",
+      "main_latency": 3.514,
+      "main_tokens": {
+        "prompt": 363,
+        "completion": 238,
+        "total": 601
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.24,
+      "prefix_tokens": {
+        "prompt": 96,
+        "completion": 36,
+        "total": 132
+      },
+      "spec_calls": [
+        {
+          "name": "soccer_stats.get_last_match_result",
+          "arguments": {
+            "team1": "Barcelona",
+            "team2": "Real Madrid",
+            "season": "2024"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_182",
+      "status": "ok",
+      "main_latency": 1.413,
+      "main_tokens": {
+        "prompt": 378,
+        "completion": 89,
+        "total": 467
+      },
+      "main_calls": [
+        {
+          "name": "get_nba_player_stats",
+          "arguments": {
+            "player_name": "Michael Jordan",
+            "stat_type": "championships"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.248,
+      "prefix_tokens": {
+        "prompt": 107,
+        "completion": 28,
+        "total": 135
+      },
+      "spec_calls": [
+        {
+          "name": "get_nba_player_stats",
+          "arguments": {
+            "player_name": "Michael Jordan",
+            "stat_type": "championships"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_183",
+      "status": "ok",
+      "main_latency": 2.875,
+      "main_tokens": {
+        "prompt": 393,
+        "completion": 198,
+        "total": 591
+      },
+      "main_calls": [
+        {
+          "name": "find_top_sports_celebrity",
+          "arguments": {
+            "name": "Novak Djokovic",
+            "year": 2021,
+            "sports_type": "Tennis"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.119,
+      "prefix_tokens": {
+        "prompt": 112,
+        "completion": 2,
+        "total": 114
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_184",
+      "status": "ok",
+      "main_latency": 3.488,
+      "main_tokens": {
+        "prompt": 384,
+        "completion": 220,
+        "total": 604
+      },
+      "main_calls": [
+        {
+          "name": "sports_stats.get_player_stats",
+          "arguments": {
+            "player_name": "Giannis Antetokounmpo",
+            "season": "2019-2020",
+            "league": "NBA"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.397,
+      "prefix_tokens": {
+        "prompt": 100,
+        "completion": 42,
+        "total": 142
+      },
+      "spec_calls": [
+        {
+          "name": "sports_stats.get_player_stats",
+          "arguments": {
+            "player_name": "Giannis Antetokounmpo",
+            "season": "2019-20",
+            "league": "NBA"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_185",
+      "status": "ok",
+      "main_latency": 2.984,
+      "main_tokens": {
+        "prompt": 364,
+        "completion": 216,
+        "total": 580
+      },
+      "main_calls": [
+        {
+          "name": "player_stats.average_scoring",
+          "arguments": {
+            "player_name": "LeBron James",
+            "season": "2023-24",
+            "league": "NBA"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.256,
+      "prefix_tokens": {
+        "prompt": 96,
+        "completion": 29,
+        "total": 125
+      },
+      "spec_calls": [
+        {
+          "name": "player_stats.average_scoring",
+          "arguments": {
+            "player_name": "LeBron James",
+            "season": "",
+            "league": ""
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_186",
+      "status": "ok",
+      "main_latency": 3.79,
+      "main_tokens": {
+        "prompt": 365,
+        "completion": 263,
+        "total": 628
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.959,
+      "prefix_tokens": {
+        "prompt": 95,
+        "completion": 29,
+        "total": 124
+      },
+      "spec_calls": [
+        {
+          "name": "sports_ranking.get_MVP",
+          "arguments": {
+            "season": "2023",
+            "sport_type": "football"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_187",
+      "status": "ok",
+      "main_latency": 4.495,
+      "main_tokens": {
+        "prompt": 394,
+        "completion": 308,
+        "total": 702
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.413,
+      "prefix_tokens": {
+        "prompt": 107,
+        "completion": 37,
+        "total": 144
+      },
+      "spec_calls": [
+        {
+          "name": "sports_ranking.get_team_ranking",
+          "arguments": {
+            "team_name": "NBA",
+            "sport_league": "NBA",
+            "season": 2024
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_188",
+      "status": "ok",
+      "main_latency": 1.744,
+      "main_tokens": {
+        "prompt": 336,
+        "completion": 59,
+        "total": 395
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.189,
+      "prefix_tokens": {
+        "prompt": 95,
+        "completion": 26,
+        "total": 121
+      },
+      "spec_calls": [
+        {
+          "name": "sports.ranking.get_champion",
+          "arguments": {
+            "event": "World Series",
+            "year": 2020
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_189",
+      "status": "ok",
+      "main_latency": 5.042,
+      "main_tokens": {
+        "prompt": 362,
+        "completion": 349,
+        "total": 711
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.208,
+      "prefix_tokens": {
+        "prompt": 95,
+        "completion": 30,
+        "total": 125
+      },
+      "spec_calls": [
+        {
+          "name": "sports_ranking.get_top_ranked",
+          "arguments": {
+            "sport": "basketball",
+            "gender": "male"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_190",
+      "status": "ok",
+      "main_latency": 4.822,
+      "main_tokens": {
+        "prompt": 384,
+        "completion": 310,
+        "total": 694
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.932,
+      "prefix_tokens": {
+        "prompt": 101,
+        "completion": 31,
+        "total": 132
+      },
+      "spec_calls": [
+        {
+          "name": "sports_team.standing",
+          "arguments": {
+            "team_name": "ATP",
+            "league": "tennis",
+            "season_year": null
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_191",
+      "status": "ok",
+      "main_latency": 3.793,
+      "main_tokens": {
+        "prompt": 367,
+        "completion": 304,
+        "total": 671
+      },
+      "main_calls": [
+        {
+          "name": "get_match_stats",
+          "arguments": {
+            "team_name": "Argentina",
+            "tournament": "FIFA World Cup",
+            "year": 2022
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.912,
+      "prefix_tokens": {
+        "prompt": 96,
+        "completion": 26,
+        "total": 122
+      },
+      "spec_calls": [
+        {
+          "name": "get_match_stats",
+          "arguments": {
+            "team_name": "",
+            "tournament": "World Cup",
+            "year": null
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_192",
+      "status": "ok",
+      "main_latency": 4.947,
+      "main_tokens": {
+        "prompt": 373,
+        "completion": 380,
+        "total": 753
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.968,
+      "prefix_tokens": {
+        "prompt": 97,
+        "completion": 95,
+        "total": 192
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_193",
+      "status": "ok",
+      "main_latency": 1.808,
+      "main_tokens": {
+        "prompt": 369,
+        "completion": 126,
+        "total": 495
+      },
+      "main_calls": [
+        {
+          "name": "get_sport_team_details",
+          "arguments": {
+            "team_name": "Los Angeles Lakers",
+            "details": [
+              "roster"
+            ]
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.129,
+      "prefix_tokens": {
+        "prompt": 97,
+        "completion": 28,
+        "total": 125
+      },
+      "spec_calls": [
+        {
+          "name": "get_sport_team_details",
+          "arguments": {
+            "team_name": "Los Angeles Lakers",
+            "details": "top scorer"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_194",
+      "status": "ok",
+      "main_latency": 3.508,
+      "main_tokens": {
+        "prompt": 372,
+        "completion": 221,
+        "total": 593
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.722,
+      "prefix_tokens": {
+        "prompt": 97,
+        "completion": 2,
+        "total": 99
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_195",
+      "status": "ok",
+      "main_latency": 10.055,
+      "main_tokens": {
+        "prompt": 421,
+        "completion": 886,
+        "total": 1307
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.97,
+      "prefix_tokens": {
+        "prompt": 100,
+        "completion": 2,
+        "total": 102
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_196",
+      "status": "ok",
+      "main_latency": 10.776,
+      "main_tokens": {
+        "prompt": 510,
+        "completion": 744,
+        "total": 1254
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.956,
+      "prefix_tokens": {
+        "prompt": 99,
+        "completion": 2,
+        "total": 101
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_197",
+      "status": "ok",
+      "main_latency": 3.113,
+      "main_tokens": {
+        "prompt": 383,
+        "completion": 192,
+        "total": 575
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.734,
+      "prefix_tokens": {
+        "prompt": 108,
+        "completion": 2,
+        "total": 110
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_198",
+      "status": "ok",
+      "main_latency": 9.21,
+      "main_tokens": {
+        "prompt": 372,
+        "completion": 737,
+        "total": 1109
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.902,
+      "prefix_tokens": {
+        "prompt": 94,
+        "completion": 2,
+        "total": 96
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_199",
+      "status": "ok",
+      "main_latency": 2.542,
+      "main_tokens": {
+        "prompt": 369,
+        "completion": 200,
+        "total": 569
+      },
+      "main_calls": [
+        {
+          "name": "play_poker",
+          "arguments": {
+            "number_of_players": 4,
+            "cards_per_player": 2,
+            "game_type": "Texas Holdem"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.132,
+      "prefix_tokens": {
+        "prompt": 95,
+        "completion": 37,
+        "total": 132
+      },
+      "spec_calls": [
+        {
+          "name": "play_poker",
+          "arguments": {
+            "number_of_players": 4,
+            "cards_per_player": 2,
+            "game_type": "texas_holdem"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_200",
+      "status": "ok",
+      "main_latency": 4.635,
+      "main_tokens": {
+        "prompt": 360,
+        "completion": 329,
+        "total": 689
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.155,
+      "prefix_tokens": {
+        "prompt": 102,
+        "completion": 27,
+        "total": 129
+      },
+      "spec_calls": [
+        {
+          "name": "get_highest_card_holder",
+          "arguments": {
+            "game_id": "unknown",
+            "suit": "unknown"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_201",
+      "status": "ok",
+      "main_latency": 3.482,
+      "main_tokens": {
+        "prompt": 379,
+        "completion": 236,
+        "total": 615
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.643,
+      "prefix_tokens": {
+        "prompt": 96,
+        "completion": 45,
+        "total": 141
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_202",
+      "status": "ok",
+      "main_latency": 3.35,
+      "main_tokens": {
+        "prompt": 380,
+        "completion": 219,
+        "total": 599
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.102,
+      "prefix_tokens": {
+        "prompt": 102,
+        "completion": 25,
+        "total": 127
+      },
+      "spec_calls": [
+        {
+          "name": "game_score.calculate",
+          "arguments": {
+            "team1_points": 0,
+            "team2_points": 0
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_203",
+      "status": "ok",
+      "main_latency": 1.265,
+      "main_tokens": {
+        "prompt": 332,
+        "completion": 77,
+        "total": 409
+      },
+      "main_calls": [
+        {
+          "name": "get_player_score",
+          "arguments": {
+            "player": "A",
+            "game": "Halo"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.959,
+      "prefix_tokens": {
+        "prompt": 87,
+        "completion": 22,
+        "total": 109
+      },
+      "spec_calls": [
+        {
+          "name": "get_player_score",
+          "arguments": {
+            "player": "A",
+            "game": "Halo"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_204",
+      "status": "ok",
+      "main_latency": 4.508,
+      "main_tokens": {
+        "prompt": 391,
+        "completion": 346,
+        "total": 737
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.567,
+      "prefix_tokens": {
+        "prompt": 93,
+        "completion": 85,
+        "total": 178
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_205",
+      "status": "ok",
+      "main_latency": 2.014,
+      "main_tokens": {
+        "prompt": 392,
+        "completion": 95,
+        "total": 487
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.936,
+      "prefix_tokens": {
+        "prompt": 116,
+        "completion": 2,
+        "total": 118
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_206",
+      "status": "ok",
+      "main_latency": 4.848,
+      "main_tokens": {
+        "prompt": 404,
+        "completion": 391,
+        "total": 795
+      },
+      "main_calls": [
+        {
+          "name": "game.find_best_weapon",
+          "arguments": {
+            "player_level": 1,
+            "enemy_type": "dragon",
+            "inventory": [
+              "knife",
+              "sword",
+              "bow",
+              "axe",
+              "staff"
+            ]
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.208,
+      "prefix_tokens": {
+        "prompt": 120,
+        "completion": 30,
+        "total": 150
+      },
+      "spec_calls": [
+        {
+          "name": "game.find_best_weapon",
+          "arguments": {
+            "player_level": 1,
+            "enemy_type": "dragon"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_207",
+      "status": "ok",
+      "main_latency": 2.346,
+      "main_tokens": {
+        "prompt": 382,
+        "completion": 162,
+        "total": 544
+      },
+      "main_calls": [
+        {
+          "name": "game_tracker.high_score",
+          "arguments": {
+            "game_name": "Flappy Bird",
+            "platform": "Mobile"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.026,
+      "prefix_tokens": {
+        "prompt": 97,
+        "completion": 25,
+        "total": 122
+      },
+      "spec_calls": [
+        {
+          "name": "game_tracker.high_score",
+          "arguments": {
+            "game_name": "Flappy Bird",
+            "platform": ""
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_208",
+      "status": "ok",
+      "main_latency": 6.5,
+      "main_tokens": {
+        "prompt": 364,
+        "completion": 470,
+        "total": 834
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.071,
+      "prefix_tokens": {
+        "prompt": 102,
+        "completion": 2,
+        "total": 104
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_209",
+      "status": "ok",
+      "main_latency": 9.208,
+      "main_tokens": {
+        "prompt": 381,
+        "completion": 679,
+        "total": 1060
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 3.519,
+      "prefix_tokens": {
+        "prompt": 89,
+        "completion": 205,
+        "total": 294
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_210",
+      "status": "ok",
+      "main_latency": 4.271,
+      "main_tokens": {
+        "prompt": 413,
+        "completion": 315,
+        "total": 728
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.138,
+      "prefix_tokens": {
+        "prompt": 103,
+        "completion": 35,
+        "total": 138
+      },
+      "spec_calls": [
+        {
+          "name": "recipe_based_restaurants",
+          "arguments": {
+            "recipe_name": "",
+            "location": "Paris",
+            "price_range": "",
+            "preferred_rating": null
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_211",
+      "status": "ok",
+      "main_latency": 3.38,
+      "main_tokens": {
+        "prompt": 374,
+        "completion": 250,
+        "total": 624
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.907,
+      "prefix_tokens": {
+        "prompt": 103,
+        "completion": 35,
+        "total": 138
+      },
+      "spec_calls": [
+        {
+          "name": "recipe_calculator.calculate_time",
+          "arguments": {
+            "weight": 5,
+            "per_unit_time": 10,
+            "unit_of_time": "minutes"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_212",
+      "status": "ok",
+      "main_latency": 3.06,
+      "main_tokens": {
+        "prompt": 393,
+        "completion": 214,
+        "total": 607
+      },
+      "main_calls": [
+        {
+          "name": "get_cooking_time",
+          "arguments": {
+            "ingredient_type": "egg",
+            "ingredient_size": "large",
+            "cooking_method": "boiling"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.945,
+      "prefix_tokens": {
+        "prompt": 102,
+        "completion": 35,
+        "total": 137
+      },
+      "spec_calls": [
+        {
+          "name": "get_cooking_time",
+          "arguments": {
+            "ingredient_type": "egg",
+            "ingredient_size": "medium",
+            "cooking_method": "boiling"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_213",
+      "status": "ok",
+      "main_latency": 1.792,
+      "main_tokens": {
+        "prompt": 361,
+        "completion": 128,
+        "total": 489
+      },
+      "main_calls": [
+        {
+          "name": "restaurant_finder",
+          "arguments": {
+            "cuisine": "pizza",
+            "location": "Boston",
+            "rating": 4
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.872,
+      "prefix_tokens": {
+        "prompt": 93,
+        "completion": 24,
+        "total": 117
+      },
+      "spec_calls": [
+        {
+          "name": "restaurant_finder",
+          "arguments": {
+            "cuisine": "pizza",
+            "location": "Boston"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_214",
+      "status": "ok",
+      "main_latency": 4.816,
+      "main_tokens": {
+        "prompt": 361,
+        "completion": 340,
+        "total": 701
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.444,
+      "prefix_tokens": {
+        "prompt": 99,
+        "completion": 65,
+        "total": 164
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_215",
+      "status": "ok",
+      "main_latency": 4.509,
+      "main_tokens": {
+        "prompt": 374,
+        "completion": 327,
+        "total": 701
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.822,
+      "prefix_tokens": {
+        "prompt": 102,
+        "completion": 79,
+        "total": 181
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_216",
+      "status": "ok",
+      "main_latency": 3.128,
+      "main_tokens": {
+        "prompt": 358,
+        "completion": 188,
+        "total": 546
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.757,
+      "prefix_tokens": {
+        "prompt": 93,
+        "completion": 2,
+        "total": 95
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_217",
+      "status": "ok",
+      "main_latency": 2.762,
+      "main_tokens": {
+        "prompt": 380,
+        "completion": 197,
+        "total": 577
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.965,
+      "prefix_tokens": {
+        "prompt": 96,
+        "completion": 2,
+        "total": 98
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_218",
+      "status": "ok",
+      "main_latency": 3.047,
+      "main_tokens": {
+        "prompt": 381,
+        "completion": 272,
+        "total": 653
+      },
+      "main_calls": [
+        {
+          "name": "prepare_food.get_recipe",
+          "arguments": {
+            "ingredients": [
+              "chocolate",
+              "flour",
+              "sugar",
+              "eggs",
+              "butter"
+            ],
+            "food_type": "chocolate cake",
+            "serving_size": 1
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.731,
+      "prefix_tokens": {
+        "prompt": 102,
+        "completion": 2,
+        "total": 104
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_219",
+      "status": "ok",
+      "main_latency": 5.647,
+      "main_tokens": {
+        "prompt": 424,
+        "completion": 475,
+        "total": 899
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.741,
+      "prefix_tokens": {
+        "prompt": 94,
+        "completion": 2,
+        "total": 96
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_220",
+      "status": "ok",
+      "main_latency": 2.946,
+      "main_tokens": {
+        "prompt": 367,
+        "completion": 252,
+        "total": 619
+      },
+      "main_calls": [
+        {
+          "name": "recipe.getTemperature",
+          "arguments": {
+            "dish_name": "Chocolate Cake",
+            "oven_type": "Conventional",
+            "pre_heating": true
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.717,
+      "prefix_tokens": {
+        "prompt": 97,
+        "completion": 2,
+        "total": 99
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_221",
+      "status": "ok",
+      "main_latency": 4.072,
+      "main_tokens": {
+        "prompt": 393,
+        "completion": 308,
+        "total": 701
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.64,
+      "prefix_tokens": {
+        "prompt": 95,
+        "completion": 2,
+        "total": 97
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_222",
+      "status": "ok",
+      "main_latency": 2.014,
+      "main_tokens": {
+        "prompt": 390,
+        "completion": 127,
+        "total": 517
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.804,
+      "prefix_tokens": {
+        "prompt": 93,
+        "completion": 35,
+        "total": 128
+      },
+      "spec_calls": [
+        {
+          "name": "grocery_store.item_details",
+          "arguments": {
+            "item_name": "tomato",
+            "store_location": "general",
+            "details_level": "nutritional"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_223",
+      "status": "ok",
+      "main_latency": 1.437,
+      "main_tokens": {
+        "prompt": 381,
+        "completion": 111,
+        "total": 492
+      },
+      "main_calls": [
+        {
+          "name": "grocery_shop.find_specific_product",
+          "arguments": {
+            "city": "Chicago",
+            "product": "sourdough bread"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.074,
+      "prefix_tokens": {
+        "prompt": 110,
+        "completion": 37,
+        "total": 147
+      },
+      "spec_calls": [
+        {
+          "name": "grocery_shop.find_specific_product",
+          "arguments": {
+            "city": "Chicago",
+            "product": "sourdough bread",
+            "show_closed": false
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_224",
+      "status": "ok",
+      "main_latency": 3.231,
+      "main_tokens": {
+        "prompt": 401,
+        "completion": 244,
+        "total": 645
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.948,
+      "prefix_tokens": {
+        "prompt": 101,
+        "completion": 32,
+        "total": 133
+      },
+      "spec_calls": [
+        {
+          "name": "grocery_store.locate_nearby",
+          "arguments": {
+            "location": "Los Angeles, CA",
+            "store_type": "pet store"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_225",
+      "status": "ok",
+      "main_latency": 3.909,
+      "main_tokens": {
+        "prompt": 428,
+        "completion": 288,
+        "total": 716
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.828,
+      "prefix_tokens": {
+        "prompt": 101,
+        "completion": 2,
+        "total": 103
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_226",
+      "status": "ok",
+      "main_latency": 2.292,
+      "main_tokens": {
+        "prompt": 355,
+        "completion": 205,
+        "total": 560
+      },
+      "main_calls": [
+        {
+          "name": "get_local_time",
+          "arguments": {
+            "timezone": "Europe/London",
+            "date_format": "YYYY-MM-DD HH:mm:ss z"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.853,
+      "prefix_tokens": {
+        "prompt": 87,
+        "completion": 37,
+        "total": 124
+      },
+      "spec_calls": [
+        {
+          "name": "get_local_time",
+          "arguments": {
+            "timezone": "Europe/London",
+            "date_format": "%Y-%m-%d %H:%M:%S %Z"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_227",
+      "status": "ok",
+      "main_latency": 3.321,
+      "main_tokens": {
+        "prompt": 397,
+        "completion": 268,
+        "total": 665
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.92,
+      "prefix_tokens": {
+        "prompt": 93,
+        "completion": 29,
+        "total": 122
+      },
+      "spec_calls": [
+        {
+          "name": "calculate_sunrise",
+          "arguments": {
+            "location": "Beijing",
+            "date": "today",
+            "format": "sunset"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_228",
+      "status": "ok",
+      "main_latency": 1.435,
+      "main_tokens": {
+        "prompt": 390,
+        "completion": 86,
+        "total": 476
+      },
+      "main_calls": [
+        {
+          "name": "get_local_time",
+          "arguments": {
+            "location": "Sydney, Australia",
+            "format": "12"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 0.823,
+      "prefix_tokens": {
+        "prompt": 92,
+        "completion": 17,
+        "total": 109
+      },
+      "spec_calls": [
+        {
+          "name": "get_local_time",
+          "arguments": {
+            "location": "Sydney, Australia"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_229",
+      "status": "ok",
+      "main_latency": 6.678,
+      "main_tokens": {
+        "prompt": 405,
+        "completion": 444,
+        "total": 849
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 0.804,
+      "prefix_tokens": {
+        "prompt": 101,
+        "completion": 2,
+        "total": 103
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_230",
+      "status": "ok",
+      "main_latency": 3.601,
+      "main_tokens": {
+        "prompt": 373,
+        "completion": 219,
+        "total": 592
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 2.194,
+      "prefix_tokens": {
+        "prompt": 100,
+        "completion": 34,
+        "total": 134
+      },
+      "spec_calls": [
+        {
+          "name": "find_hotel",
+          "arguments": {
+            "location": "Miami",
+            "max_price_per_night": 1000000,
+            "pet_friendly": true
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_231",
+      "status": "ok",
+      "main_latency": 4.399,
+      "main_tokens": {
+        "prompt": 420,
+        "completion": 256,
+        "total": 676
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.195,
+      "prefix_tokens": {
+        "prompt": 115,
+        "completion": 37,
+        "total": 152
+      },
+      "spec_calls": [
+        {
+          "name": "hotel_booking.check_availability",
+          "arguments": {
+            "hotel_name": "",
+            "location": "Chicago",
+            "check_in_date": "",
+            "check_out_date": ""
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_232",
+      "status": "ok",
+      "main_latency": 3.648,
+      "main_tokens": {
+        "prompt": 375,
+        "completion": 268,
+        "total": 643
+      },
+      "main_calls": [
+        {
+          "name": "hotel_search.find_hotels",
+          "arguments": {
+            "location": "New York, NY",
+            "amenities": [
+              "Breakfast",
+              "Fitness Centre"
+            ]
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.733,
+      "prefix_tokens": {
+        "prompt": 95,
+        "completion": 34,
+        "total": 129
+      },
+      "spec_calls": [
+        {
+          "name": "hotel_search.find_hotels",
+          "arguments": {
+            "location": "New York",
+            "amenities": "yoga, vegetarian meals, spa"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_233",
+      "status": "ok",
+      "main_latency": 3.358,
+      "main_tokens": {
+        "prompt": 353,
+        "completion": 225,
+        "total": 578
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.022,
+      "prefix_tokens": {
+        "prompt": 87,
+        "completion": 2,
+        "total": 89
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_234",
+      "status": "ok",
+      "main_latency": 2.551,
+      "main_tokens": {
+        "prompt": 361,
+        "completion": 166,
+        "total": 527
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.201,
+      "prefix_tokens": {
+        "prompt": 95,
+        "completion": 28,
+        "total": 123
+      },
+      "spec_calls": [
+        {
+          "name": "convert_length",
+          "arguments": {
+            "value": 10,
+            "from_unit": "inch",
+            "to_unit": "meter"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_235",
+      "status": "ok",
+      "main_latency": 7.052,
+      "main_tokens": {
+        "prompt": 367,
+        "completion": 479,
+        "total": 846
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 3.333,
+      "prefix_tokens": {
+        "prompt": 98,
+        "completion": 124,
+        "total": 222
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_236",
+      "status": "ok",
+      "main_latency": 2.949,
+      "main_tokens": {
+        "prompt": 390,
+        "completion": 304,
+        "total": 694
+      },
+      "main_calls": [
+        {
+          "name": "get_flight_duration",
+          "arguments": {
+            "start_city": "London",
+            "destination_city": "Tokyo",
+            "flight_type": "non-stop"
+          }
+        },
+        {
+          "name": "get_flight_duration",
+          "arguments": {
+            "start_city": "London",
+            "destination_city": "Tokyo",
+            "flight_type": "direct"
+          }
+        },
+        {
+          "name": "get_flight_duration",
+          "arguments": {
+            "start_city": "London",
+            "destination_city": "Tokyo",
+            "flight_type": "multi-stop"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.186,
+      "prefix_tokens": {
+        "prompt": 102,
+        "completion": 35,
+        "total": 137
+      },
+      "spec_calls": [
+        {
+          "name": "get_flight_duration",
+          "arguments": {
+            "start_city": "London",
+            "destination_city": "Tokyo",
+            "flight_type": "quickest"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_237",
+      "status": "ok",
+      "main_latency": 3.724,
+      "main_tokens": {
+        "prompt": 388,
+        "completion": 186,
+        "total": 574
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.259,
+      "prefix_tokens": {
+        "prompt": 103,
+        "completion": 36,
+        "total": 139
+      },
+      "spec_calls": [
+        {
+          "name": "get_route_to_location",
+          "arguments": {
+            "start_point": "Los Angeles",
+            "end_point": "nearest pharmacy",
+            "transport_method": "walking"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    },
+    {
+      "id": "irrelevance_238",
+      "status": "ok",
+      "main_latency": 6.212,
+      "main_tokens": {
+        "prompt": 469,
+        "completion": 454,
+        "total": 923
+      },
+      "main_calls": [],
+      "main_correct": true,
+      "prefix_latency": 1.231,
+      "prefix_tokens": {
+        "prompt": 102,
+        "completion": 2,
+        "total": 104
+      },
+      "spec_calls": [],
+      "spec_names": null,
+      "spec_correct": true
+    },
+    {
+      "id": "irrelevance_239",
+      "status": "ok",
+      "main_latency": 2.522,
+      "main_tokens": {
+        "prompt": 369,
+        "completion": 190,
+        "total": 559
+      },
+      "main_calls": [
+        {
+          "name": "get_date",
+          "arguments": {
+            "location_1": "San Francisco",
+            "location_2": "Los Angeles",
+            "unit": "kilometers"
+          }
+        }
+      ],
+      "main_correct": false,
+      "prefix_latency": 1.303,
+      "prefix_tokens": {
+        "prompt": 95,
+        "completion": 32,
+        "total": 127
+      },
+      "spec_calls": [
+        {
+          "name": "get_date",
+          "arguments": {
+            "location_1": "San Francisco",
+            "location_2": "Los Angeles",
+            "unit": "km"
+          }
+        }
+      ],
+      "spec_names": null,
+      "spec_correct": false
+    }
+  ],
+  "failures": [],
+  "analysis": {
+    "main_failures": 72,
+    "unexpected_calls": {
+      "get_average_monthly_temperature": 12,
+      "get_happiness_index": 4,
+      "get_historical_figure_info": 3,
+      "get_concert_info": 3,
+      "get_flight_duration": 3,
+      "str_to_int": 2,
+      "local_fauna": 2,
+      "get_co_ordinate": 2,
+      "probability_calculator": 2,
+      "get_law_categories": 2,
+      "get_closest_airport": 2,
+      "get_local_time": 2,
+      "calculate_maximum_height": 1,
+      "investment_calculator.calculate_return": 1,
+      "magnetic_field_intensity": 1,
+      "thermodynamics.calc_gas_pressure": 1,
+      "calculate_heat": 1,
+      "get_cell_function": 1,
+      "cellBiology.getCellType": 1,
+      "identify_species": 1,
+      "evolve_creatures": 1,
+      "gene_sequencer": 1,
+      "get_exchange_rate": 1,
+      "movies.search": 1,
+      "genetic_algorithm.optimize": 1,
+      "probability.determine_population": 1,
+      "statistics.calculate_p_value": 1,
+      "calculate_internal_rate_of_return": 1,
+      "finance.predict_revenue": 1,
+      "investment_analysis.calculate_profit": 1,
+      "law_info.get_penalty": 1,
+      "lawsuit_search": 1,
+      "soil_analysis.analyze_soil_type": 1,
+      "calculate_water_needs": 1,
+      "find_pois": 1,
+      "calculate_distance": 1,
+      "playoff.brackets": 1,
+      "medical_records.get_disease_info": 1,
+      "get_social_trends": 1,
+      "get_recent_tweets": 1,
+      "sentiment_analysis.twitter": 1,
+      "psychology.color_representation": 1,
+      "us_president_in_year": 1,
+      "religion_history.get_event_year": 1,
+      "building_information.get_data": 1,
+      "artwork_search": 1,
+      "most_frequent_visitor": 1,
+      "museum_data.get_visit_stats": 1,
+      "get_museum_artists": 1,
+      "search_music_instrument_players": 1,
+      "get_instrument_info": 1,
+      "concert_availability": 1,
+      "music_composer.composition_info": 1,
+      "sports_analyzer.get_schedule": 1,
+      "get_nba_player_stats": 1,
+      "find_top_sports_celebrity": 1,
+      "sports_stats.get_player_stats": 1,
+      "player_stats.average_scoring": 1,
+      "get_match_stats": 1,
+      "get_sport_team_details": 1,
+      "play_poker": 1,
+      "get_player_score": 1,
+      "game.find_best_weapon": 1,
+      "game_tracker.high_score": 1,
+      "get_cooking_time": 1,
+      "restaurant_finder": 1,
+      "prepare_food.get_recipe": 1,
+      "recipe.getTemperature": 1,
+      "grocery_shop.find_specific_product": 1,
+      "hotel_search.find_hotels": 1,
+      "get_date": 1
+    },
+    "missed_tools": {},
+    "wrong_case_calls": {
+      "get_average_monthly_temperature": 12,
+      "get_happiness_index": 4,
+      "get_historical_figure_info": 3,
+      "get_concert_info": 3,
+      "get_flight_duration": 3,
+      "str_to_int": 2,
+      "local_fauna": 2,
+      "get_co_ordinate": 2,
+      "probability_calculator": 2,
+      "get_law_categories": 2,
+      "get_closest_airport": 2,
+      "get_local_time": 2,
+      "calculate_maximum_height": 1,
+      "investment_calculator.calculate_return": 1,
+      "magnetic_field_intensity": 1,
+      "thermodynamics.calc_gas_pressure": 1,
+      "calculate_heat": 1,
+      "get_cell_function": 1,
+      "cellBiology.getCellType": 1,
+      "identify_species": 1,
+      "evolve_creatures": 1,
+      "gene_sequencer": 1,
+      "get_exchange_rate": 1,
+      "movies.search": 1,
+      "genetic_algorithm.optimize": 1,
+      "probability.determine_population": 1,
+      "statistics.calculate_p_value": 1,
+      "calculate_internal_rate_of_return": 1,
+      "finance.predict_revenue": 1,
+      "investment_analysis.calculate_profit": 1,
+      "law_info.get_penalty": 1,
+      "lawsuit_search": 1,
+      "soil_analysis.analyze_soil_type": 1,
+      "calculate_water_needs": 1,
+      "find_pois": 1,
+      "calculate_distance": 1,
+      "playoff.brackets": 1,
+      "medical_records.get_disease_info": 1,
+      "get_social_trends": 1,
+      "get_recent_tweets": 1,
+      "sentiment_analysis.twitter": 1,
+      "psychology.color_representation": 1,
+      "us_president_in_year": 1,
+      "religion_history.get_event_year": 1,
+      "building_information.get_data": 1,
+      "artwork_search": 1,
+      "most_frequent_visitor": 1,
+      "museum_data.get_visit_stats": 1,
+      "get_museum_artists": 1,
+      "search_music_instrument_players": 1,
+      "get_instrument_info": 1,
+      "concert_availability": 1,
+      "music_composer.composition_info": 1,
+      "sports_analyzer.get_schedule": 1,
+      "get_nba_player_stats": 1,
+      "find_top_sports_celebrity": 1,
+      "sports_stats.get_player_stats": 1,
+      "player_stats.average_scoring": 1,
+      "get_match_stats": 1,
+      "get_sport_team_details": 1,
+      "play_poker": 1,
+      "get_player_score": 1,
+      "game.find_best_weapon": 1,
+      "game_tracker.high_score": 1,
+      "get_cooking_time": 1,
+      "restaurant_finder": 1,
+      "prepare_food.get_recipe": 1,
+      "recipe.getTemperature": 1,
+      "grocery_shop.find_specific_product": 1,
+      "hotel_search.find_hotels": 1,
+      "get_date": 1
+    },
+    "spec_failures": 133,
+    "spec_unexpected": {
+      "historical_event.get_date": 2,
+      "get_local_time": 2,
+      "quadratic_formula": 1,
+      "find_roots": 1,
+      "str_to_int": 1,
+      "calculus.compute_definite_integral": 1,
+      "calculate_projectile_range": 1,
+      "calculate_wave_amplitude": 1,
+      "magnetic_field_intensity": 1,
+      "calculate_heat": 1,
+      "get_cell_function": 1,
+      "bloodcell_classification": 1,
+      "favorite_restaurant": 1,
+      "cellBiology.getCellType": 1,
+      "identify_species": 1,
+      "genetics.get_variant_frequency": 1,
+      "get_dominant_trait": 1,
+      "local_fauna": 1,
+      "retrieve_scientific_paper": 1,
+      "air_quality": 1,
+      "evolve_creatures": 1,
+      "gene_sequencer": 1,
+      "get_exchange_rate": 1,
+      "finance.fetchGDP": 1,
+      "compress_file": 1,
+      "database_query.run": 1,
+      "movies.search": 1,
+      "database_connect.select": 1,
+      "solar_panel.calculate_need": 1,
+      "calculateFinalPrice": 1,
+      "probability.coin_toss_heads": 1,
+      "probability.determine_population": 1,
+      "statistics.calculate_p_value": 1,
+      "regression_model.predict": 1,
+      "calculate_internal_rate_of_return": 1,
+      "finance.predict_revenue": 1,
+      "investment_analysis.calculate_profit": 1,
+      "get_stock_data": 1,
+      "law_info.get_penalty": 1,
+      "generate_contract": 1,
+      "file_complaint": 1,
+      "get_law_categories": 1,
+      "search_lawyer": 1,
+      "law_firm.get_impactful_cases": 1,
+      "case_info.get": 1,
+      "case_review.retrieve_case_outcome": 1,
+      "lawsuit_search": 1,
+      "get_average_monthly_temperature": 1,
+      "get_current_time": 1,
+      "weather_forecast.get": 1,
+      "calculate_park_area": 1,
+      "soil_analysis.analyze_soil_type": 1,
+      "soil_composition_analyze": 1,
+      "emission_estimator": 1,
+      "calculate_water_needs": 1,
+      "geo_location_based_products.fetch_eco_friendly_products": 1,
+      "get_traffic_condition": 1,
+      "find_pois": 1,
+      "calculate_distance": 1,
+      "playoff.brackets": 1,
+      "medical_records.get_disease_info": 1,
+      "get_social_trends": 1,
+      "get_recent_tweets": 1,
+      "get_happiness_index": 1,
+      "sentiment_analysis.twitter": 1,
+      "personality_assessment.evaluate": 1,
+      "calculate_big_five_traits": 1,
+      "psychology.color_representation": 1,
+      "add_dates": 1,
+      "us_president_in_year": 1,
+      "space.star_info": 1,
+      "look_up_scientific_contributions": 1,
+      "get_historical_figure_info": 1,
+      "search_holy_books": 1,
+      "religion_history.get_event_year": 1,
+      "mix_color_codes": 1,
+      "color_complimentary": 1,
+      "calculate_paint_mix": 1,
+      "sculpture.create": 1,
+      "sculpture_info.find_creator": 1,
+      "building_information.get_data": 1,
+      "artwork_search": 1,
+      "most_frequent_visitor": 1,
+      "museum_data.get_visit_stats": 1,
+      "get_museum_artists": 1,
+      "search_music_instrument_players": 1,
+      "get_instrument_info": 1,
+      "get_concert_info": 1,
+      "concert_availability": 1,
+      "concert_search.find_concerts": 1,
+      "music_theory.create_chord_progression": 1,
+      "music.search_composer": 1,
+      "music_composer.composition_info": 1,
+      "music_analysis.find_common_chords": 1,
+      "music_theory.primary_triads": 1,
+      "find_composer": 1,
+      "get_song_chord_progression": 1,
+      "sports_analysis.get_top_scorer": 1,
+      "sports_analyzer.get_schedule": 1,
+      "soccer_stats.get_last_match_result": 1,
+      "get_nba_player_stats": 1,
+      "sports_stats.get_player_stats": 1,
+      "player_stats.average_scoring": 1,
+      "sports_ranking.get_MVP": 1,
+      "sports_ranking.get_team_ranking": 1,
+      "sports.ranking.get_champion": 1,
+      "sports_ranking.get_top_ranked": 1,
+      "sports_team.standing": 1,
+      "get_match_stats": 1,
+      "get_sport_team_details": 1,
+      "play_poker": 1,
+      "get_highest_card_holder": 1,
+      "game_score.calculate": 1,
+      "get_player_score": 1,
+      "game.find_best_weapon": 1,
+      "game_tracker.high_score": 1,
+      "recipe_based_restaurants": 1,
+      "recipe_calculator.calculate_time": 1,
+      "get_cooking_time": 1,
+      "restaurant_finder": 1,
+      "grocery_store.item_details": 1,
+      "grocery_shop.find_specific_product": 1,
+      "grocery_store.locate_nearby": 1,
+      "calculate_sunrise": 1,
+      "find_hotel": 1,
+      "hotel_booking.check_availability": 1,
+      "hotel_search.find_hotels": 1,
+      "convert_length": 1,
+      "get_flight_duration": 1,
+      "get_route_to_location": 1,
+      "get_date": 1
+    }
+  }
+}
