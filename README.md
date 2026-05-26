@@ -2,7 +2,7 @@
 
 用分支预测的方式加速 Agent 工具调用 — 基于 DeepSeek Prefix Continuation API 在 BFCL v4 基准上的实验。
 
-> 实现和数据：[用分支预测加速 Agent 工具调用](https://zhuanlan.zhihu.com/p/2041639052571566901)
+> [用分支预测加速 Agent 工具调用](https://zhuanlan.zhihu.com/p/2041639052571566901)
 
 ## 核心结果（BFCL v4, DeepSeek V4 Flash）
 
