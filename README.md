@@ -16,6 +16,25 @@
 - **多轮**：Main 陷入探索循环（pwd/ls/状态查询占 37% 调用），Spec 直接命中目标工具
 - **无关工具**：两者都面临 false positive 问题，Spec 更差（55%）
 
+## 数据准备
+
+实验依赖 [BFCL v4](https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard) 数据集。
+
+```bash
+# 1. 克隆 gorilla 仓库获取数据
+git clone https://github.com/ShishirPatil/gorilla.git temp_gorilla
+
+# 2. BFCL 数据位于：
+#    temp_gorilla/berkeley-function-call-leaderboard/bfcl_eval/data/
+#    ├── BFCL_v4_simple_python.json
+#    ├── BFCL_v4_multi_turn_base.json
+#    ├── BFCL_v4_irrelevance.json
+#    ├── possible_answer/
+#    └── multi_turn_func_doc/
+```
+
+数据路径由 `benchmark_bfcl.py` 中 `DATA_DIR` 控制，默认读取 `temp_gorilla/...` 相对路径。
+
 ## 快速开始
 
 ```bash
